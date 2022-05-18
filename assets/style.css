@@ -17,6 +17,61 @@ body {
     background-color: black !important;
 }
 
+* universal styles */
+
+.home-sections {
+    width: 100%;
+}
+
+.content-container {
+    display: flex;
+    height: 50vh;
+    border: 2px solid #fff;
+}
+
+.section-title {
+    font-size: 6rem;
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 3px 3px #1f1f1f;
+    
+}
+
+.paragraph {
+    font-size: 2.25rem;
+    width: 50%;
+    padding: 0;
+    margin: 0 auto !important;
+    text-align: center;
+}
+
+
+.section-button {
+    color: #000;
+    font-size: 1.5rem;
+    background-color: transparent;
+    padding: 10px 15px;
+    border: 2px solid rgb(218,165,32);
+    border-radius: 2px;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.section-button:hover, .section-button:focus  {
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: rgba(218,165,32, 0.4);
+    border: 2px solid rgba(226, 168, 21, 0.5);
+}
+
+.images {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
 /* Home page styles */
 /* Navbar Styles */
 
@@ -80,3 +135,13 @@ body {
     font-family: 'Arizonia', cursive;
 }
 
+/* About section Styles  */
+.about-section {
+    margin-bottom: 7%;
+}
+
+.about-section-paragraph {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
