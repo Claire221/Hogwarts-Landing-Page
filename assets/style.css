@@ -21,30 +21,37 @@ body {
 
 .home-sections {
     width: 100%;
+    margin: 3%;
+    border: solid 2px;
 }
 
 .content-container {
     display: flex;
     height: 50vh;
     border: 2px solid #fff;
+    margin: 1;
+}
+
+.hogsmede-section, .houses-section {
+    margin: 8% 0;
 }
 
 .section-title {
     font-size: 6rem;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 1%;
     text-shadow: 3px 3px #1f1f1f;
     
 }
 
-.paragraph {
-    font-size: 2.25rem;
-    width: 50%;
-    padding: 0;
-    margin: 0 auto !important;
-    text-align: center;
-}
 
+.home-section-p{
+    min-width: 60%;
+    background-color: rgba(133, 2, 35, 0.774);
+    margin: 0;
+    font-size: 2rem;
+    padding: 1%;
+} 
 
 .section-button {
     color: #000;
@@ -135,13 +142,44 @@ body {
     font-family: 'Arizonia', cursive;
 }
 
+
 /* About section Styles  */
 .about-section {
     margin-bottom: 7%;
 }
 
-.about-section-paragraph {
-    width: 90%;
+.about-section-p {
+    max-width: 90%;
     margin: 0 auto;
-    padding-bottom: 2%;
+    font-size: 2rem;
+    padding: 1%;
+}
+
+/* Hogsmede Section Styles */
+
+.hogsmede-section-title {
+    margin-bottom: 1%;
+}
+
+.hogsmede-section-image {
+    min-width: 40%;
+    height: 100%;
+    margin: 0;
+
+    background-image:
+    url("https://cdnb.artstation.com/p/assets/images/images/013/732/955/large/elizaveta-lebedeva-hogsmeade.jpg?1540902403");
+
+}
+
+
+
+/* Hogwarts Houses section Styles */
+
+.houses-section-image {
+    background-image:
+    url("/assets/img/crest.png");
+    background-size: 35vh;
+    min-width: 40%;
+
+
 }
