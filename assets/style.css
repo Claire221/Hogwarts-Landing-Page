@@ -1,0 +1,82 @@
+/* Google Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Loop', cursive;
+    color: #fff !important;
+    
+  
+}
+
+body {
+    background-color: black !important;
+}
+
+/* Home page styles */
+/* Navbar Styles */
+
+.container {
+    min-width: 100%;
+    box-shadow: 0px 0px 5px 5px rgb(5, 3, 12);
+    background-color: rgb(0, 0, 0);
+}
+
+.brand {
+    font-family: 'Arizonia', cursive;
+    font-size: 2em;
+    text-decoration: none;
+
+}
+
+
+.nav {
+    position: absolute;
+    right: 0;
+}
+
+.nav-link {
+    font-size: 1.5em;
+
+}
+
+.brand:focus, .brand:hover, .nav-link:hover, .nav-link:focus {
+    color:rgb(218,165,32) !important;
+}
+
+
+/* header styles */
+.welcome-header {
+    height: 90vh;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
+                      url("https://static0.srcdn.com/wordpress/wp-content/uploads/2019/02/Hogwarts-Featured.jpg");
+    animation: zoom 1s ;
+    margin-bottom: 5%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.welcome-sub-title, .welcome-title {
+    background-color: transparent;
+    position: relative;
+    top: 300px;
+}
+
+.welcome-sub-title {
+    font-size: 3rem;
+}
+
+.welcome-title {
+    font-size: 6rem;
+    text-shadow: 3px 3px #141414;
+    font-family: 'Arizonia', cursive;
+}
+
