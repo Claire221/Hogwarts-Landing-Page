@@ -159,6 +159,10 @@ body {
     color:rgb(218,165,32) !important;
 }
 
+.active {
+    border-bottom: 1px solid rgb(218,165,32) !important;
+}
+
 
 /* header styles */
 .welcome-header {
@@ -167,11 +171,6 @@ body {
                       url("https://static0.srcdn.com/wordpress/wp-content/uploads/2019/02/Hogwarts-Featured.jpg");
     animation: zoom 1s ;
     margin-bottom: 5%;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
 
     animation-name: header-zoom;
     animation-duration: 4s;
@@ -249,6 +248,21 @@ body {
 }
 
 
+/* Hogwarts Houses page style */
+/* header styles */
+
+.houses-page-header {
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/3oHASBLOr6uWCQwUA8MWoO/f48ffdb9bd5dfd8051fa256f72c338a5/SortingHat-PM-B2C12M1-DumbledoreOffice-Moment.jpg?fm=jpg&q=70&w=2560");
+    border: solid 2px green;
+}
+
+.houses-page-title {
+    font-size: 7rem;
+    margin-top: 4%;
+}
 
 
 /* Animation styles */
