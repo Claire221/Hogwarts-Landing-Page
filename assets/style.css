@@ -171,10 +171,11 @@ body {
                       url("https://static0.srcdn.com/wordpress/wp-content/uploads/2019/02/Hogwarts-Featured.jpg");
     animation: zoom 1s ;
     margin-bottom: 5%;
-
     animation-name: header-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+    text-align: center;
+
 }
 
 
@@ -283,6 +284,19 @@ body {
     width: 90%;
     margin: 0 auto;
     font-size: 2rem;
+}
+
+
+/* /gryffindor section */
+
+.gryffindor-section-p {
+    background-color: rgb(66, 0, 14);
+}
+
+.gryffindor-section-image {
+    min-height: 100%;
+    margin: 0;
+    background-image: url("https://i.pinimg.com/originals/92/84/e8/9284e85bb098c50b8b1256d4d3b6e9e6.jpg");
 }
 
 /* Animation styles */
