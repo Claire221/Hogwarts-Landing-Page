@@ -127,6 +127,11 @@ body {
     text-align: center;
 }
 
+.card-image {
+    min-height: 100%;
+    margin: 0;
+}
+
 
 /* Home page styles */
 /* Navbar Styles */
@@ -277,17 +282,21 @@ body {
 
 /* header styles */
 
-.houses-page-header {
+.sub-page-header {
     width: 100%;
     height: 60vh;
     text-align: center;
-    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/3oHASBLOr6uWCQwUA8MWoO/f48ffdb9bd5dfd8051fa256f72c338a5/SortingHat-PM-B2C12M1-DumbledoreOffice-Moment.jpg?fm=jpg&q=70&w=2560");
-    border: solid 2px green;
 }
 
-.houses-page-title {
+.sub-page-title {
     font-size: 7rem;
     margin-top: 4%;
+    text-shadow: 3px 3px #2b2b2b;
+}
+
+.houses-header {
+    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/3oHASBLOr6uWCQwUA8MWoO/f48ffdb9bd5dfd8051fa256f72c338a5/SortingHat-PM-B2C12M1-DumbledoreOffice-Moment.jpg?fm=jpg&q=70&w=2560");
+    border: solid 2px green;
 }
 
 
@@ -358,6 +367,72 @@ body {
 .slytherin-section-p {
     background-color: #0f2903;
 }
+
+
+/* Classes page Styles */
+.classes-header {
+    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/3qDq1So6CseO6ek4MyuE0a/41f1755b77c83e22252a91e31297447c/FiliusFlitwick_PM_B1C10M2_CharmsClass_Moment.jpg");
+    border: solid 2px #021333
+}
+
+/* Herbology Section */
+.herbology-section-image {
+    background-image: url("https://static.wixstatic.com/media/d78287_69002cd02243496ea1eff0a01fe0fb90~mv2.jpg/v1/fill/w_980,h_384,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d78287_69002cd02243496ea1eff0a01fe0fb90~mv2.jpg");
+}
+
+.herbology-section-p {
+    background-color: #340053;
+}
+
+/* Defence against the dark arts Section */
+.defence-section-image {
+    background-image: url("https://external-preview.redd.it/hD0NNIY0LYCiUSf16_x68TUcK7GxC94VPEO1Iu_VpBo.jpg?auto=webp&s=040442be779b53952f156da6663635cedbe57f6e");
+    min-height: 100%;
+    margin: 0;
+}
+
+.defence-section-p {
+    background-color: #00393d;
+}
+
+/*Astronomy class section */
+.astronomy-section-image {
+    background-image: url("https://i.ytimg.com/vi/4QGwmoIJKB8/maxresdefault.jpg");
+}
+
+.astronomy-section-p {
+    background-color: #04011a;
+}
+
+/* Potions class section */
+.potions-section-image {
+    background-image: url("https://i.pinimg.com/originals/5e/6b/3c/5e6b3c7d5d3310d8d2616c5a9c131de2.jpg");
+    min-height: 100%;
+    margin: 0;
+}
+
+.potions-section-p {
+    background-color: #a76400;
+}
+
+/* Transfiguration Section */
+.transfiguration-section-image {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a9e3440d-0f91-47a7-82c9-7c72df86c43d/ddl65cz-40a86cf8-b2dc-4d68-90b7-8d093e8cc150.jpg/v1/fit/w_414,h_239,q_70,strp/professor_minerva_mcgonagall_fanart_by_vladislavpantic_ddl65cz-414w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTkwIiwicGF0aCI6IlwvZlwvYTllMzQ0MGQtMGY5MS00N2E3LTgyYzktN2M3MmRmODZjNDNkXC9kZGw2NWN6LTQwYTg2Y2Y4LWIyZGMtNGQ2OC05MGI3LThkMDkzZThjYzE1MC5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.KTqbzjl51Dqnk31B-QhKG9v13NASTa8VOZ7WJO6k2d4");
+}
+
+.transfiguration-section-p {
+    background-color: #3d0030;
+}
+
+/* Care of magical creatures Section */
+.creatures-section-image {
+    background-image: url("https://cat-us.com/wp-content/uploads/2020/08/Care-Of-Magical-Creatures-Class-768x591.jpg");
+}
+
+.creatures-section-p {
+    background-color: #003d24;
+}
+
 
 /* Animation styles */
 @keyframes header-zoom {
