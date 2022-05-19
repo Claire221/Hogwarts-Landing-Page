@@ -287,7 +287,7 @@ body {
 }
 
 
-/* /gryffindor section */
+/* Gryffindor section */
 
 .gryffindor-section-p {
     background-color: rgb(66, 0, 14);
@@ -297,6 +297,43 @@ body {
     min-height: 100%;
     margin: 0;
     background-image: url("https://i.pinimg.com/originals/92/84/e8/9284e85bb098c50b8b1256d4d3b6e9e6.jpg");
+}
+
+
+/* Hufflepuff section */
+
+.hufflepuff-section-image {
+    min-height: 100%;
+    margin: 0;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/014/717/891/large/jack-gallagher-hufflepuff-dorm-jpg2.jpg?1545154183");
+}
+
+.hufflepuff-section-p {
+    background-color: #ac7c17;
+}
+
+/* Ravenclaw section */
+
+.ravenclaw-section-image {
+    min-height: 100%;
+    margin: 0;
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/006/609/700/4k/jack-gallagher-ravenclaw-common-room-jpg8.jpg?1499894549");
+}
+
+.ravenclaw-section-p {
+    background-color: #021333;
+}
+
+/* Slytherin section */
+
+.slytherin-section-image {
+    min-height: 100%;
+    margin: 0;
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/006/864/668/4k/jack-gallagher-slytherin-common-room-jpg7.jpg?1501808962&dl=1");
+}
+
+.slytherin-section-p {
+    background-color: #0f2903;
 }
 
 /* Animation styles */
