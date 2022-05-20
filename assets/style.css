@@ -447,7 +447,9 @@ body {
     border: solid 2px green;
 }
 
+
 /* headteacher section styles */
+
 .headteacher-section {
     display: flex;
     width: 80%;
@@ -456,20 +458,48 @@ body {
 
 }
 
+#first-row-p {
+    background-color: rgba(197, 0, 49, 0.774);
+}
+
+#second-row-p {
+    background-color: rgba(160, 0, 40, 0.774);
+}
+
+#third-row-p {
+    background-color: rgba(95, 0, 24, 0.774);
+}
+
+#fourth-row-p {
+    background-color: rgba(61, 1, 16, 0.774);
+}
+
+
+
+.teacher-heading {
+    font-size: 6rem;
+    text-align: center;
+    margin: 7% 0 3%;
+    background-color: rgba(197, 0, 49, 0.774);
+    color: #000 !important;
+}
+
 .head-teacher-container {
     width: 40%;
     max-height: 100%;
     text-align: center;
-    border: solid 5px  #a76400;
+    border: solid 5px  #fff;
     margin: 0 auto;
 }
 
 .teacher-position {
     font-size: 3rem;
+
 }
 
 .teacher-name {
     font-size: 2.5rem;
+
 }
 
 .teacher-img {
@@ -478,15 +508,12 @@ body {
 
 .teacher-description {
     font-size: 1.5rem;
-    width: 90%;
+    height: 30%;
+    width: 100%;
+    padding: 1%;
     margin: 0 auto;
+    color: #000 !important;
 
-}
-
-.teacher-heading {
-    font-size: 4rem;
-    text-align: center;
-    margin: 7% 0 3%;
 }
 
 .teacher-section {
@@ -500,8 +527,9 @@ body {
     max-width: 30%;
     margin: 0 auto;
     text-align: center;
+    border: solid 2px #fff;
+    border-radius: 5px;
 
-    border: solid 2px red;
 }
 
 
