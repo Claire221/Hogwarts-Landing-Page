@@ -35,13 +35,14 @@ The aim of the website is to be an informative site where parents would visit to
 ### Wireframes
 I have designed some simple wireframes that show the layout I plan to use throughout the website, I have included the view on multiple device sizes inlcuding Tablet and Mobile.
 
-- [Homepage page wireframes] (https://github.com/Claire221/Code-Institute-Milestone-Project-1/blob/main/wireframes/homepage.png)
+- [Homepage page wireframes](https://github.com/Claire221/Code-Institute-Milestone-Project-1/blob/main/wireframes/homepage.png)
 
-- [Hogwarts Houses page wireframes] (https://github.com/Claire221/Code-Institute-Milestone-Project-1/blob/main/wireframes/housespage.png)
+- [Hogwarts Houses page wireframes](https://github.com/Claire221/Code-Institute-Milestone-Project-1/blob/main/wireframes/housespage.png)
 
-- [Hogwarts Lessons page wireframes] (https://github.com/Claire221/Code-Institute-Milestone-Project-1/blob/main/wireframes/lessonpage.png)
+- [Hogwarts Lessons page wireframes](https://github.com/Claire221/Code-Institute-Milestone-Project-1/blob/main/wireframes/lessonpage.png)
 
-- [Hogwarts Staff page wireframes] (https://github.com/Claire221/Code-Institute-Milestone-Project-1/blob/main/wireframes/teacherspage.png)
+- [Hogwarts Staff page wireframes](https://github.com/Claire221/Code-Institute-Milestone-Project-1/blob/main/wireframes/teacherspage.png)
 
 ### Colours 
-Throughout the website I want the theme to be dark with a pop of bright colours. I want the majority of the backgrounds to be a dark grey or black colour with brightly coloured images for the house crests and class descriptions so that they pop out and catch your eye. 
+Throughout the website I want the theme to be dark with a pop of bright colours. I want the majority of the backgrounds to be a dark grey or black colour with brightly coloured images for the house crests and class descriptions so that they pop out and catch your eye.
+
