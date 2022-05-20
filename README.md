@@ -12,6 +12,7 @@ The aim of the website is to be an informative site where parents would visit to
 - [UI Design](#UI-Design)
     - [Wireframes](#Wireframes)
     - [Colours](#Colours)
+    - [Common Features](#common-features)
 
 ## Planning Stage
 ### Target Audience
@@ -44,5 +45,19 @@ I have designed some simple wireframes that show the layout I plan to use throug
 - [Hogwarts Staff page wireframes](https://github.com/Claire221/Code-Institute-Milestone-Project-1/blob/main/wireframes/teacherspage.png)
 
 ### Colours 
-Throughout the website I want the theme to be dark with a pop of bright colours. I want the majority of the backgrounds to be a dark grey or black colour with brightly coloured images for the house crests and class descriptions so that they pop out and catch your eye.
+Throughout the website I want the theme to be dark with a pop of bright colours.
 
+For the homepage I used a black background with an accent colour of dark maroon for the section paragraph backgrounds to make them stand out. After I added the colours I thought it looked a bit flat so I decided to slightly darked then background color as you went down the page to make it more visualy interesting. The first paragraph background was a light maroon color, the second one a mid tone and finally the last one a dark maroon colour. 
+
+For the other pages I wanted to uses pops of color in the section that matched the images corelating to them, for the Hogwarts Houses page I used the staple colour of each Hogwarts house as the background. 
+
+For the Lessons page I tried to pick out a colour that was in the background of each image and use that so both the image and the paragraph looked like they belonged together.
+
+For the Staff members page I wanted to keep it fairly simple as not to draw attention away from the portraits or make the page to chaotic so I went with a simple white border around each profile card and a white background to the staff member description paragraph.
+
+### Common Features
+Throughout the website I wanted to keep certain elements the same so that the site has a coheisve feel and feels like its a part of the same narative. Each page has a header section with a background image corelating to what the section is about. 
+
+The navigation menu is also exactly the same throughout the website so that its easilty navigatable by users. 
+
+For the Hogwars Houses page and also the Lesson Page I kept the layouts the same card style with an image relating to the topic and a paragraph describing it.
