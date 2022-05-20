@@ -93,7 +93,6 @@ body {
     height: auto;
 }
 
-
 .home-section-p{
     min-width: 60%;
     margin: 0;
@@ -301,6 +300,10 @@ body {
 
 
 /* About hogwarts houses section */
+.defence-section, .astronomy-section, .potions-section, .transfiguration-section, .creatures-section {
+    margin: 5% 0;
+}
+
 .description-section {
     width: 100%;
     height: 50vh;
@@ -377,6 +380,8 @@ body {
 
 /* Herbology Section */
 .herbology-section-image {
+    width: 100%;
+    height: 100%;
     background-image: url("https://static.wixstatic.com/media/d78287_69002cd02243496ea1eff0a01fe0fb90~mv2.jpg/v1/fill/w_980,h_384,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d78287_69002cd02243496ea1eff0a01fe0fb90~mv2.jpg");
 }
 
@@ -397,6 +402,8 @@ body {
 
 /*Astronomy class section */
 .astronomy-section-image {
+    width: 100%;
+    height: auto;
     background-image: url("https://i.ytimg.com/vi/4QGwmoIJKB8/maxresdefault.jpg");
 }
 
@@ -407,8 +414,8 @@ body {
 /* Potions class section */
 .potions-section-image {
     background-image: url("https://i.pinimg.com/originals/5e/6b/3c/5e6b3c7d5d3310d8d2616c5a9c131de2.jpg");
+    width: 100%;
     min-height: 100%;
-    margin: 0;
 }
 
 .potions-section-p {
@@ -432,6 +439,71 @@ body {
 .creatures-section-p {
     background-color: #003d24;
 }
+
+/* Hogwarts Staff Page Styles */
+/* Header Styles */
+.staff-header {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a44d695a-0ed6-4668-82bc-af6493512481/d2twhql-e1c6bfa4-e58c-4777-82df-009888da3071.jpg/v1/fill/w_1600,h_996,q_75,strp/hogwarts_professors_by_belegilgalad_d2twhql-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTk2IiwicGF0aCI6IlwvZlwvYTQ0ZDY5NWEtMGVkNi00NjY4LTgyYmMtYWY2NDkzNTEyNDgxXC9kMnR3aHFsLWUxYzZiZmE0LWU1OGMtNDc3Ny04MmRmLTAwOTg4OGRhMzA3MS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.foC1P92lDFTqJO6DafqAYeZ5qnlT02zYtPzOT6OcM_Q");
+    border: solid 2px green;
+}
+
+/* headteacher section styles */
+.headteacher-section {
+    display: flex;
+    width: 80%;
+    margin: 1% auto;
+    max-height: 70vh;
+
+}
+
+.head-teacher-container {
+    width: 40%;
+    max-height: 100%;
+    text-align: center;
+    border: solid 5px  #a76400;
+    margin: 0 auto;
+}
+
+.teacher-position {
+    font-size: 3rem;
+}
+
+.teacher-name {
+    font-size: 2.5rem;
+}
+
+.teacher-img {
+    height: 50%;
+}
+
+.teacher-description {
+    font-size: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.teacher-heading {
+    font-size: 4rem;
+    text-align: center;
+    margin: 7% 0 3%;
+}
+
+.teacher-section {
+    display: flex;
+    width: 100%;
+    margin: 0 auto 2%;
+    max-height: 70vh;
+}
+
+.teacher-container {
+    max-width: 30%;
+    margin: 0 auto;
+    text-align: center;
+
+    border: solid 2px red;
+}
+
 
 
 /* Animation styles */
