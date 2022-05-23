@@ -9,16 +9,14 @@
     padding: 0;
     font-family: 'Zen Loop', cursive;
     color: #fff !important;
-    
-  
 }
 
-body {
-    background-color: black !important;
-}
 /* 
 * universal styles */ 
 
+html, body {
+    background-color: black !important;
+}
 
 .hr-container {
     padding: 50px;
@@ -93,7 +91,7 @@ body {
     height: auto;
 }
 
-.home-section-p{
+.home-section-p , .house-section-p {
     min-width: 60%;
     margin: 0;
     font-size: 2rem;
@@ -135,27 +133,45 @@ body {
 /* Home page styles */
 /* Navbar Styles */
 
-.container {
-    min-width: 100%;
-    box-shadow: 0px 0px 5px 5px rgb(5, 3, 12);
-    background-color: rgb(0, 0, 0);
+.navbar {
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    color: #fff !important;
+    text-align: center;
+}
+
+.nav-links {
+    width: 100%;
 }
 
 .brand {
     font-family: 'Arizonia', cursive;
-    font-size: 2em;
+    font-size: 3em;
     text-decoration: none;
-
+    color: #fff !important;
 }
 
+.navbar-toggler-icon, .navbar-toggler {
+    color: #fff !important;
+    border: solid 2px rgb(218,165,32);
+}
 
-.nav {
-    position: absolute;
-    right: 0;
+.navbar-nav {
+    margin: 0 0 0 50%;
+    width: 50%;
+    padding: 0;
+    justify-content: center;
 }
 
 .nav-link {
     font-size: 1.5em;
+    color: #fff !important;
+
+} 
+.nav-item {
+    color: #fff !important;
+    width: 20%;
 
 }
 
@@ -166,6 +182,7 @@ body {
 .active {
     border-bottom: 1px solid rgb(218,165,32) !important;
 }
+
 
 
 /* header styles */
@@ -197,6 +214,8 @@ body {
     font-size: 6rem;
     text-shadow: 3px 3px #141414;
     font-family: 'Arizonia', cursive;
+    width: 90%;
+    margin: 0 auto;
 }
 
 
@@ -226,10 +245,14 @@ body {
 }
 
 .hogsmede-section-p {
-    background-color: rgba(197, 0, 49, 0.774);
+    background-color: rgba(197, 0, 49, 0.774) !important;
 }
 
 /* Houses Section Styles */
+
+.house-section-p {
+
+}
 
 .houses-section-image {
     background-image: url("/assets/img/crest.png");
@@ -254,17 +277,6 @@ body {
 
 
 /* Hogwarts Houses page style */
-
- .crests {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 4%;
-}
-
-.crests img {
-    height: 15%;
-}
 
 .hr-stars {
     width: 40%;
@@ -308,7 +320,7 @@ body {
     width: 100%;
     height: 50vh;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 3%;
 }
 
 .description-title {
@@ -321,6 +333,7 @@ body {
     margin: 0 auto;
     font-size: 2rem;
 }
+
 
 /* Gryffindor section */
 
@@ -541,8 +554,20 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
+    /* Home Page Media Queries */
     body {
         overflow-x: hidden;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav-item {
+        color: #fff !important;
+        width: 100%;
+    
     }
 
     .welcome-header {
@@ -572,9 +597,32 @@ body {
         height: 50vh;
     }
 
+
+    /* Hogwarts houses page media queries */
+
+
+    .hr-stars {
+        display: none;
+    }
+
+    .description-section {
+        height: auto;
+        margin-bottom: 5%;
+    }
+
+    .description-section-p {
+     
+        height: auto;
+    }
+
+    .gryffindor-section, .ravenclaw-section, .hufflepuff-section, .slyhterin-section {
+        margin: 5% 0;
+    }
+    
 }
 
 @media only screen and (max-width: 900px) {
+    /* Home Page Media Queries */
     .welcome-title {
         width: 90%;
         margin: 0 auto;
@@ -583,4 +631,7 @@ body {
     .welcome-header {
         margin-bottom: 20%;
     }
+
+      /* Hogwarts houses page media queries */
+
 }
