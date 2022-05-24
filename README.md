@@ -15,6 +15,7 @@ The aim of the website is to be an informative site where parents would visit to
     - [Common Features](#common-features)
 - [Page Features](#individual-page-designs)
     - [Home Page](#home-page)
+- [Bugs](#bugs)
 
 ## Planning Stage
 ### Target Audience
@@ -114,3 +115,10 @@ For the header section I wanted a staff group photo, I wanted to give the feel t
 
 #### Cards
 For the cards on the page I wanted to have their title, name and a breif description included. Also for the image I used real photos rather than artistic ones as I thought it made more sence to have genuine photos 
+
+## Bugs
+When I was testing my website I noticed that there was a problem with the bootstrap nav bar, when you went to smaller viewports it was collapsing but the hamburger menu wasnt working and when you clicked on it nothing happened. 
+
+The first way I tried to fix it was to re put in the navbar template from bootstrap incase a change I had made had caused an issue, so I copied and pasted the code from bootstap and didnt change any of the classes or template text. I tried the different viewports again and the navbar hamburger menu still wanst working, this told me though that it wasnt an error with the HTML code.
+
+Next I thought it might be an erorr with the CDN I had imported and this turned out to be correct, after trying a few recomended ones from Stack overflow and not having any luck I went back to the Bootstrap documentation and realised I had imported the wrong JavaScript file, I swapped out the one I already have with the new one and it fixed the issue.
