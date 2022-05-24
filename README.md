@@ -13,6 +13,8 @@ The aim of the website is to be an informative site where parents would visit to
     - [Wireframes](#Wireframes)
     - [Colours](#Colours)
     - [Common Features](#common-features)
+- [Page FEatures](#individual-page-designs)
+    - [Home Page](#home-page)
 
 ## Planning Stage
 ### Target Audience
@@ -61,3 +63,23 @@ Throughout the website I wanted to keep certain elements the same so that the si
 The navigation menu is also exactly the same throughout the website so that its easilty navigatable by users. 
 
 For the Hogwars Houses page and also the Lesson Page I kept the layouts the same card style with an image relating to the topic and a paragraph describing it.
+
+## Individual Page Designs
+### Home page
+#### Header Section
+For the header of the home page I wanted something that would catch someones attention as its the first thing they will see, I decided to do a hero image of Hogwarts Castle and I added a slight zoom effect to it. I also added two headings which welcome you to the page. 
+[Home Page header section](/assets/img/README_img/homepage.PNG)
+
+#### Cards
+For the information on the home page I decided to go with a card format. Each card had a paragrpah that gave a small description of the topic and then a picture which corelated with the information in the paragraph. I decided to give each paragraph background a colour so that it stood out against the black page background and was easier to read. 
+For the images I decided to go with an art style rather than a realistic photograph, I chose this design because I found that they were a lot more colourful so stood out on the page more, I also thought it gave the page a nice feel. 
+
+[Home Page card section one](/assets/img/README_img/homepage-cards.PNG)
+[Home Page card section two](/assets/img/README_img/homepage-cards2.PNG)
+[Home Page card section three](/assets/img/README_img/homepage-cards3.PNG)
+
+#### HR
+Between each card I decided to add a Hr to break up the sections a bit. When I first created the cards I thought they were a bit bunched together so I started by adding a margin between them, I then felt that this made the page look a bit empty as there were big empty gaps between each section so I decided to go in with a HR. I didnt want the HR to be plain and boring because I didnt think that would fit in with the magical theme of the website so I decided to do something a bit different by creating a diamond shape in the middle.
+
+[Home Page HR](/assets/img/README_img/homepage-hr.PNG)
+
