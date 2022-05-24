@@ -122,3 +122,11 @@ When I was testing my website I noticed that there was a problem with the bootst
 The first way I tried to fix it was to re put in the navbar template from bootstrap incase a change I had made had caused an issue, so I copied and pasted the code from bootstap and didnt change any of the classes or template text. I tried the different viewports again and the navbar hamburger menu still wanst working, this told me though that it wasnt an error with the HTML code.
 
 Next I thought it might be an erorr with the CDN I had imported and this turned out to be correct, after trying a few recomended ones from Stack overflow and not having any luck I went back to the Bootstrap documentation and realised I had imported the wrong JavaScript file, I swapped out the one I already have with the new one and it fixed the issue.
+
+## Deployment
+I have deployed my website on Github Pages following the steps below: 
+- Navigate to the projects github repository
+- Once there go to the setting tab
+- In the left hand page there should be a link called pages click that
+- Next under branch you want to select main and under theme choose select a theme
+- Finally click the save button and it should generate you a link for the website, this could take up to 20 minutes to become active.
