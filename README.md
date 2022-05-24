@@ -16,6 +16,9 @@ The aim of the website is to be an informative site where parents would visit to
 - [Page Features](#individual-page-designs)
     - [Home Page](#home-page)
 - [Bugs](#bugs)
+- [References](#references)
+    - [Text References](#text)
+    - [Image References](#image)
 
 ## Planning Stage
 ### Target Audience
@@ -130,3 +133,48 @@ I have deployed my website on Github Pages following the steps below:
 - In the left hand page there should be a link called pages click that
 - Next under branch you want to select main and under theme choose select a theme
 - Finally click the save button and it should generate you a link for the website, this could take up to 20 minutes to become active.
+
+## References
+### Text
+For the information on the website about the school, staff and teachers I mainly got it from two sources
+- [Harry Potter Fandom](https://harrypotter.fandom.com/)
+- [fandom.com](https://www.fandom.com/)
+
+### Images
+Throughout the website I used a variery of images and artworks. 
+#### Homepage
+[Header Hogwarts castle image - Website link](https://screenrant.com/harry-potter-hogwarts-movies-missing-details/)
+[Header Hogwarts castle image - Website Image](https://static0.srcdn.com/wordpress/wp-content/uploads/2019/02/Hogwarts-Featured.jpg)
+[Hogsmede Village image](https://www.deviantart.com/nieris/art/Hogsmeade-670092533)
+[Hogwarts Crest image](https://www.deviantart.com/linnpuzzle/art/Hogwarts-Crest-453296620)
+[Lesson Section image](https://atomhawk.com/pottermore)
+
+#### Hogwarts Houses Page
+[Houses page header image](https://www.wizardingworld.com/writing-by-jk-rowling/hatstall)
+[Gryffindor Common room image](https://www.artstation.com/artwork/v2Amyd)
+[hufflepuff Common room image](https://www.artstation.com/artwork/OyGQ9k)
+[Ravenclaw Common room image](https://www.artstation.com/artwork/oRknL)
+[Slytherin Common room image](https://www.artstation.com/artwork/xPPwr)
+
+#### Hogwarts Classes Page
+[Classes page header image](https://www.wizardingworld.com/writing-by-jk-rowling/hogwarts-school-subjects)
+[Herbology Lesson Art](https://www.wizardingworld.com/features/health-hazards-herbology)
+[Defence Against the Dark Arts lesson art](https://www.wizardingworld.com/features/what-is-a-patronus)
+[Divination lesson art](https://www.youtube.com/watch?v=4QGwmoIJKB8)
+[Potions lesson art](https://www.deviantart.com/xxtayce/art/Pottermore-Background-Potions-Class-417719888)
+[Transfiguration lesson art](https://www.artstation.com/artwork/Bm0e8k)
+[Care of Magical Creatures lesson art](https://harrypotter.fandom.com/wiki/Care_of_Magical_Creatures)
+
+#### Staff and Teachers Page
+[Staff page header image](https://www.bloghogwarts.com/2012/06/15/si-tus-profesores-fuesen-como-los-de-hogwarts/)
+[Dumbledore image](https://www.wizardingworld.com/features/things-you-may-not-have-noticed-about-albus-dumbledore)
+[McGonagall image](https://www.vulture.com/2018/09/minerva-mcgonagall-harry-potter-twentieth-anniversary.html)
+[Snape image](https://ultimatepopculture.fandom.com/wiki/Severus_Snape)
+[Madame Hooch image](https://harrypotter.fandom.com/wiki/Rolanda_Hooch)
+[Flitwick image](https://www.harrypotterfanzone.com/pictures/professor-flitwick-in-class/)
+[Trelawney image](http://thegrandmalogbook.blogspot.com/2020/04/sybill-trelawney-prophecies-since.html)
+[Lockheart image](https://aminoapps.com/c/harry-potter/page/blog/why-gilderoy-lockhart-wanted-to-teach-dada/xZT2_uxXj180BVQeZ7p165MYZPzvnP)
+[Sprout image](https://harrypotter.fandom.com/wiki/Pomona_Sprout)
+[Hagrid image](https://en.wikipedia.org/wiki/Rubeus_Hagrid)
+[Filch image](https://thewordexplorer.blog/2015/03/07/harry-potter-characters-argus-filch/)
+[Madame Pomfrey image](https://www.pinterest.co.uk/pin/4503668365085602/)
