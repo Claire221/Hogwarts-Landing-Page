@@ -13,7 +13,7 @@ The aim of the website is to be an informative site where parents would visit to
     - [Wireframes](#Wireframes)
     - [Colours](#Colours)
     - [Common Features](#common-features)
-- [Page FEatures](#individual-page-designs)
+- [Page Features](#individual-page-designs)
     - [Home Page](#home-page)
 
 ## Planning Stage
@@ -74,12 +74,43 @@ For the header of the home page I wanted something that would catch someones att
 For the information on the home page I decided to go with a card format. Each card had a paragrpah that gave a small description of the topic and then a picture which corelated with the information in the paragraph. I decided to give each paragraph background a colour so that it stood out against the black page background and was easier to read. 
 For the images I decided to go with an art style rather than a realistic photograph, I chose this design because I found that they were a lot more colourful so stood out on the page more, I also thought it gave the page a nice feel. 
 
-[Home Page card section one](/assets/img/README_img/homepage-cards.PNG)
-[Home Page card section two](/assets/img/README_img/homepage-cards2.PNG)
-[Home Page card section three](/assets/img/README_img/homepage-cards3.PNG)
+
+
+![](./assets/img/README_img/homepage-cards.PNG 100x20)
+![](/assets/img/README_img/homepage-cards2.PNG 100x20)
+![](/assets/img/README_img/homepage-cards3.PNG 100x20)
 
 #### HR
 Between each card I decided to add a Hr to break up the sections a bit. When I first created the cards I thought they were a bit bunched together so I started by adding a margin between them, I then felt that this made the page look a bit empty as there were big empty gaps between each section so I decided to go in with a HR. I didnt want the HR to be plain and boring because I didnt think that would fit in with the magical theme of the website so I decided to do something a bit different by creating a diamond shape in the middle.
 
 [Home Page HR](/assets/img/README_img/homepage-hr.PNG)
 
+### Hogwarts Houses page
+For the Hogwarts house page I wanted to keep the style the same as the homepage so that they felt like a cohesive piece and part of the same website. The tricky part was find art that not only fit the style I was looking for but made sence with the inforamtion on the page. 
+
+#### Header Section
+For the header section on the Hogwarts Houses section I initially wanted to find a picture of the sorting ceremony but because I wanted a particular art style so I was limited with choices, I did however manage to find an artwork of the sorting hat in Dumbledores office and thought this went quite well. 
+
+#### Cards
+For the card section I kept the style and format the same as on the homepage, I had a paragraph giving a description of each house along with an image corelating to it. Initially I wanted to put images of the house crests however I was only able to find three out of the four crests in the art style I was going for and thought it looked disconjoined if I used a different image on the last house. For that reason I decided to go with images that reflected each houses common room, although it wasnt my initial idea I still think it turend out well as the common rooms are a big part of each house as they are where students spend a lot of time. Each common room is also decorated in a different style that fits the theme of each house so I thought it gives the viewer an idea of what the houses represent. I also coloured the paragraph sections with the main colour from each houses logo to tie it all together. 
+
+#### HR
+For the HR seperating the sections I initially had the same one as on the Home page, I then went back and changed it just to mix it up a bit and give a bit of visual difference. In the end I settles on a row of five stars each one slightly smaller than the next, I thought this design went well with the magical aspect of the site. 
+
+### Classes page
+Again with the classes page I kept it very similar to the pervious two pages as it was important to me that the pages as a whole felt like they are part of the same peice.  
+
+#### Header Section
+For the header section I managed to find an art work the represented a class setting so I decided to go with that. Becuause the image is brighter than the background I think it makes the heading section stand out. 
+
+#### Cards
+For the card section I kept the layout the same as the pervious pages. This time for the images I found artowrk that depicted each classroom to give a feel for what the classes might be like. I also coloured the paragraph section with a colour from the image, I chose a colour that wasnt as promenent so that it was a bit of a contrast. 
+
+### Staff and Teachers page
+For the staff and teachers page I mixed up the layout slightly, I still went with a cards design but I went with more of a galery or portfolio layout.
+
+#### Header Section
+For the header section I wanted a staff group photo, I wanted to give the feel that the staff had all got together to have a photo drawn or painted for it to be used on the school website. 
+
+#### Cards
+For the cards on the page I wanted to have their title, name and a breif description included. Also for the image I used real photos rather than artistic ones as I thought it made more sence to have genuine photos 
