@@ -469,11 +469,23 @@ html, body {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    height: auto;
 }
 
 
+.head-teacher-container {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    border: solid 5px  #fff;
+    margin: 2% auto 0;
+
+    display: block;
+}
+
 #first-row-p {
     background-color: rgba(197, 0, 49, 0.774);
+    height: 30vh;
 }
 
 #second-row-p {
@@ -489,6 +501,27 @@ html, body {
 }
 
 
+.teacher-section {
+    display: flex;
+    width: 100%;
+    margin: 0 auto 2%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2%;
+    row-gap: 2%;
+}
+
+.teacher-container {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    height: 75vh;
+}
+
 
 .teacher-heading {
     font-size: 6rem;
@@ -498,16 +531,6 @@ html, body {
     color: #000 !important;
     border: solid 4px rgba(226, 0, 57, 0.774);
     box-shadow: 0 0 5px 5px rgb(26, 26, 26);
-}
-
-.head-teacher-container {
-    width: 40%;
-    height: 100%;
-    text-align: center;
-    border: solid 5px  #fff;
-    margin: 0 auto;
-
-    display: block;
 }
 
 .teacher-position {
@@ -536,27 +559,25 @@ html, body {
 
 }
 
-.teacher-section {
-    display: flex;
-    width: 100%;
-    margin: 0 auto 2%;
-}
 
-.teacher-container {
-    max-width: 30%;
-    margin: 0 auto;
-    text-align: center;
-    border: solid 2px #fff;
-    border-radius: 5px;
-    height: 75vh;
+#first-row-p {
+    background-color: rgba(197, 0, 49, 0.774);
+    height: 30vh;
 }
-
 
 
 /* Animation styles */
 @keyframes header-zoom {
     from {transform: scale(1)}
     to {transform: scale(1.1)}
+}
+
+@media only screen and (max-width: 1400px) {
+    /* Home Page Media Queries */
+    #first-row-p {
+        height: 40vh;
+    }
+    
 }
 
 @media only screen and (max-width: 1200px) {
@@ -626,22 +647,29 @@ html, body {
     }
 
     /* Hogwarts Staff page media queries */
-    .headteacher-section, .teacher-section {
-        flex-direction: column;
+
+    .headteacher-section {
+        min-width: 80%;
+        border: solid 3px blue;
     }
 
-    .head-teacher-container{
-        width: 100%;
-        margin: 5% 0;
+    .head-teacher-container {
+        width: 60%;
     }
 
     .teacher-section {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2%;
     }
     
-    .teacher-container  {
-        min-width: 100%;
-        margin: 3% 0;
-        height: auto;
+
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .headteacher-section {
+        flex-direction: column;
     }
 
 }
@@ -657,6 +685,19 @@ html, body {
         margin-bottom: 20%;
     }
 
-      /* Hogwarts houses page media queries */
+      /* Hogwarts staff page media queries */
+
+    .headteacher-section {
+        min-width: 90%;
+        border: solid 3px green;
+    }
+
+    .head-teacher-container {
+        width: 100%;
+    }  
+      .teacher-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
 
 }
