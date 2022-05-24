@@ -467,11 +467,8 @@ html, body {
 .headteacher-section {
     display: flex;
     width: 80%;
-    border: solid 2px orange;
     margin: 0 auto;
     text-align: center;
-
-
 }
 
 
@@ -505,10 +502,12 @@ html, body {
 
 .head-teacher-container {
     width: 40%;
-    max-height: 100%;
+    height: 100%;
     text-align: center;
     border: solid 5px  #fff;
     margin: 0 auto;
+
+    display: block;
 }
 
 .teacher-position {
@@ -527,11 +526,13 @@ html, body {
 
 .teacher-description {
     font-size: 1.5rem;
-    height: 30%;
+    height: 35%;
     width: 100%;
     padding: 1%;
     margin: 0 auto;
     color: #fff !important;
+    margin-bottom: 0;
+    display: block;
 
 }
 
@@ -547,7 +548,7 @@ html, body {
     text-align: center;
     border: solid 2px #fff;
     border-radius: 5px;
-
+    height: 75vh;
 }
 
 
