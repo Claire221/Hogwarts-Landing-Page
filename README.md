@@ -68,9 +68,9 @@ For the images I decided to go with an art style rather than a realistic photogr
 
 
 
-!(assets/documentation/testing/README_img/homepage-cards.PNG)
-!(assets/documentation/testing/README_img/homepage-cards2.PNG)
-!(assets/documentation/testing/README_img/homepage-cards3.PNG)
+![Home Page Card section](assets/documentation/testing/README_img/homepage-cards.png)
+![Home Page Card section](assets/documentation/testing/README_img/homepage-cards2.png)
+![Home Page Card section](assets/documentation/testing/README_img/homepage-cards3.png)
 
 #### HR
 Between each card I decided to add a Hr to break up the sections a bit. When I first created the cards I thought they were a bit bunched together so I started by adding a margin between them, I then felt that this made the page look a bit empty as there were big empty gaps between each section so I decided to go in with a HR. I didnt want the HR to be plain and boring because I didnt think that would fit in with the magical theme of the website so I decided to do something a bit different by creating a diamond shape in the middle.

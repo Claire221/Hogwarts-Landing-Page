@@ -16,6 +16,7 @@
 
 html, body {
     background-color: black !important;
+    overflow-x:  hidden;
 }
 
 .hr-container {
@@ -68,7 +69,7 @@ html, body {
 }
 
 .content-container {
-    height: auto;
+    /* height: auto; */
     border: 2px solid #fff;
     margin: 1;
 }
@@ -96,7 +97,7 @@ html, body {
 
 .image-container {
     width: 100%;
-    height: auto;
+    /* height: auto; */
 }
 
 .home-section-p , .house-section-p {
@@ -223,7 +224,8 @@ html, body {
 
 /* header styles */
 .welcome-header {
-    height: 90vh;
+    min-height: 90vh;
+    /* width: 90vw; */
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
                       url("https://static0.srcdn.com/wordpress/wp-content/uploads/2019/02/Hogwarts-Featured.jpg");
     animation: zoom 1s ;
@@ -233,6 +235,7 @@ html, body {
     animation-fill-mode: forwards;
     text-align: center;
 
+    margin: 0 auto;
 }
 
 
@@ -288,7 +291,7 @@ html, body {
 /* Houses Section Styles */
 
 .houses-section-image {
-    background-image: url("../img/crest.png");
+    background-image: url("/assets/img/crest.png");
     min-height: 100%;
     background-size: 40vh;
 }
@@ -313,7 +316,7 @@ html, body {
 
 .hr-stars {
     width: 40%;
-    height: auto;
+    /* height: auto; */
     margin: 2% auto;
     text-align: center;
     padding: 0;
@@ -328,7 +331,7 @@ html, body {
 
 .sub-page-header {
     width: 100%;
-    height: 60vh;
+    min-height: 60vh;
     text-align: center;
 }
 
@@ -351,7 +354,7 @@ html, body {
 
 .description-section {
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
     text-align: center;
     margin-bottom: 3%;
 }
@@ -518,7 +521,7 @@ html, body {
 
 #first-row-p {
     background-color: rgba(197, 0, 49, 0.774);
-    height: 30vh;
+    min-height: 30vh;
 }
 
 #second-row-p {
@@ -547,12 +550,11 @@ html, body {
 
 .teacher-container {
     max-width: 100%;
-    height: auto;
     margin: 0 auto;
     text-align: center;
     border: solid 2px #fff;
     border-radius: 5px;
-    height: 75vh;
+    min-height: 75vh;
 }
 
 
@@ -578,11 +580,12 @@ html, body {
 
 .teacher-img {
     height: 300px;
+
 }
 
 .teacher-description {
     font-size: 1.5rem;
-    height: 35%;
+    min-height: 35%;
     width: 100%;
     padding: 1%;
     margin: 0 auto;
@@ -601,8 +604,13 @@ html, body {
 
 /* Animation styles */
 @keyframes header-zoom {
-    from {transform: scale(1)}
-    to {transform: scale(1.1)}
+    0% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 @media only screen and (max-width: 1400px) {
