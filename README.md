@@ -3,22 +3,6 @@
 ### Site Overview
 The aim of the website is to be an informative site where parents would visit to see what the school is about and to see if they would like their children to enroll in it. The website will feature information about the school, staff and lessons taught there.  
 
-### Table of Contents
-- [Site Overview](#Site-Overview)
-- [Planning](#Planning-Stage)
-    - [Target Audience](#Target-Audience)
-    - [User Stories](#User-Stories)
-    - [Site Aims](#Site-Aims)
-- [UI Design](#UI-Design)
-    - [Wireframes](#Wireframes)
-    - [Colours](#Colours)
-    - [Common Features](#common-features)
-- [Page Features](#individual-page-designs)
-    - [Home Page](#home-page)
-- [Bugs](#bugs)
-- [References](#references)
-    - [Text References](#text)
-    - [Image References](#image)
 
 ## Planning Stage
 ### Target Audience
@@ -42,13 +26,17 @@ The aim of the website is to be an informative site where parents would visit to
 ### Wireframes
 I have designed some simple wireframes that show the layout I plan to use throughout the website, I have included the view on multiple device sizes inlcuding Tablet and Mobile.
 
-- [Homepage page wireframes](https://github.com/Claire221/Code-Institute-Milestone-Project-1/blob/main/wireframes/homepage.png)
+### Homepage Wireframes
+- ![Homepage page wireframes](assets/documentation/wireframes/homepage.png)
 
-- [Hogwarts Houses page wireframes](https://github.com/Claire221/Code-Institute-Milestone-Project-1/blob/main/wireframes/housespage.png)
+### Hogwarts Houses Page Wireframes
+- ![Hogwarts Houses page wireframes](assets/documentation/wireframes/housespage.png)
 
-- [Hogwarts Lessons page wireframes](https://github.com/Claire221/Code-Institute-Milestone-Project-1/blob/main/wireframes/lessonpage.png)
+### Hogwarts Lessons Page Wireframes
+- ![Hogwarts Lessons page wireframes](assets/documentation/wireframes/lessonpage.png)
 
-- [Hogwarts Staff page wireframes](https://github.com/Claire221/Code-Institute-Milestone-Project-1/blob/main/wireframes/teacherspage.png)
+### Hogwarts Staff Page Wireframes
+- ![Hogwarts Staff page wireframes](assets/documentation/wireframes/teacherspage.png)
 
 ### Colours 
 Throughout the website I want the theme to be dark with a pop of bright colours.
@@ -72,7 +60,7 @@ For the Hogwars Houses page and also the Lesson Page I kept the layouts the same
 ### Home page
 #### Header Section
 For the header of the home page I wanted something that would catch someones attention as its the first thing they will see, I decided to do a hero image of Hogwarts Castle and I added a slight zoom effect to it. I also added two headings which welcome you to the page. 
-[Home Page header section](/assets/img/README_img/homepage.PNG)
+![Home Page header section](assets/documentation/testing/README_img/homepage.PNG)
 
 #### Cards
 For the information on the home page I decided to go with a card format. Each card had a paragrpah that gave a small description of the topic and then a picture which corelated with the information in the paragraph. I decided to give each paragraph background a colour so that it stood out against the black page background and was easier to read. 
@@ -80,14 +68,14 @@ For the images I decided to go with an art style rather than a realistic photogr
 
 
 
-![](./assets/img/README_img/homepage-cards.PNG 100x20)
-![](/assets/img/README_img/homepage-cards2.PNG 100x20)
-![](/assets/img/README_img/homepage-cards3.PNG 100x20)
+!(assets/documentation/testing/README_img/homepage-cards.PNG)
+!(assets/documentation/testing/README_img/homepage-cards2.PNG)
+!(assets/documentation/testing/README_img/homepage-cards3.PNG)
 
 #### HR
 Between each card I decided to add a Hr to break up the sections a bit. When I first created the cards I thought they were a bit bunched together so I started by adding a margin between them, I then felt that this made the page look a bit empty as there were big empty gaps between each section so I decided to go in with a HR. I didnt want the HR to be plain and boring because I didnt think that would fit in with the magical theme of the website so I decided to do something a bit different by creating a diamond shape in the middle.
 
-[Home Page HR](/assets/img/README_img/homepage-hr.PNG)
+![Home Page HR](assets/documentation/testing/README_img/homepage-hr.PNG)
 
 ### Hogwarts Houses page
 For the Hogwarts house page I wanted to keep the style the same as the homepage so that they felt like a cohesive piece and part of the same website. The tricky part was find art that not only fit the style I was looking for but made sence with the inforamtion on the page. 
