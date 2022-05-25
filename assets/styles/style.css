@@ -225,7 +225,7 @@ html, body {
 /* header styles */
 .welcome-header {
     min-height: 90vh;
-    /* width: 90vw; */
+    min-width: 100vw;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
                       url("https://static0.srcdn.com/wordpress/wp-content/uploads/2019/02/Hogwarts-Featured.jpg");
     animation: zoom 1s ;
@@ -234,8 +234,7 @@ html, body {
     animation-duration: 4s;
     animation-fill-mode: forwards;
     text-align: center;
-
-    margin: 0 auto;
+    background-position: center;
 }
 
 
@@ -623,9 +622,6 @@ html, body {
 
 @media only screen and (max-width: 1200px) {
     /* Home Page Media Queries */
-    body {
-        overflow-x: hidden;
-    }
 
     .navbar-nav {
         width: 100%;
