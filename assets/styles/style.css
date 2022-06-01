@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Zen Loop', cursive;
-    color: #fff !important;
+    color: #fff ;
 }
 
 /* 
@@ -23,9 +23,12 @@ html, body {
     padding: 50px;
 }
 
+/* Hr style copied from youtube tutorial
+link - https://www.youtube.com/watch?v=mjDek0d1kak */
+
 .hr-lines {
     width: 100%;
-    height: 45px;
+    min-height: 45px;
     position: relative;
 }
 
@@ -62,6 +65,7 @@ html, body {
     box-shadow: 0px 0px 5px 5px rgb(218,165,32);
 }
 
+
 .home-sections {
     width: 100%;
     margin: 0 ;
@@ -69,7 +73,6 @@ html, body {
 }
 
 .content-container {
-    /* height: auto; */
     border: 2px solid #fff;
     margin: 1;
 }
@@ -91,13 +94,12 @@ html, body {
     text-align: center;
     margin: 0 auto 1%;
     text-shadow: 3px 3px #1f1f1f;
-    
 }
 
 
 .image-container {
     width: 100%;
-    /* height: auto; */
+
 }
 
 .home-section-p , .house-section-p {
@@ -167,9 +169,8 @@ html, body {
 }
 
 
-/* Home page styles */
-/* Navbar Styles */
 
+/* Navbar Styles */
 .navbar {
     height: auto;
     margin: 0 auto;
@@ -220,8 +221,33 @@ html, body {
     border-bottom: 1px solid rgb(218,165,32) !important;
 }
 
+/* Footer Styles */
+footer {
+    min-width: 90vw;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid rgb(218,165,32);
+    justify-content: space-between;
+    align-items: center;
+}
 
+.footer-brand {
+    margin: 1%;
+}
 
+.icons {
+    display: flex;
+    min-width: 5%;
+    margin-right: 2%;
+    justify-content: space-between;
+}
+
+.fa {
+    font-size: 2rem;
+
+}
+
+/* Home page styles */
 /* header styles */
 .welcome-header {
     min-height: 90vh;
@@ -235,6 +261,7 @@ html, body {
     animation-fill-mode: forwards;
     text-align: center;
     background-position: center;
+    background-size: cover;
 }
 
 
@@ -283,12 +310,11 @@ html, body {
 }
 
 .hogsmede-section-p {
-    background-color: rgba(197, 0, 49, 0.774) !important;
+    background-color: rgba(197, 0, 49, 0.774);
 }
 
 
 /* Houses Section Styles */
-
 .houses-section-image {
     background-image: url("/assets/img/crest.png");
     min-height: 100%;
@@ -327,27 +353,25 @@ html, body {
 
 
 /* header styles */
-
 .sub-page-header {
     width: 100%;
     min-height: 60vh;
     text-align: center;
+    padding-top: 2%;
 }
 
 .sub-page-title {
     font-size: 7rem;
-    margin-top: 4%;
     text-shadow: 3px 3px #2b2b2b;
 }
 
 .houses-header {
     background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/3oHASBLOr6uWCQwUA8MWoO/f48ffdb9bd5dfd8051fa256f72c338a5/SortingHat-PM-B2C12M1-DumbledoreOffice-Moment.jpg?fm=jpg&q=70&w=2560");
-    border: solid 2px green;
 }
 
 
 /* About hogwarts houses section */
-.defence-section, .astronomy-section, .potions-section, .transfiguration-section, .creatures-section {
+.defence-section, .astronomy-section, .potions-section, .transfiguration-section {
     margin: 5% 0;
 }
 
@@ -493,7 +517,6 @@ html, body {
 /* Header Styles */
 .staff-header {
     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a44d695a-0ed6-4668-82bc-af6493512481/d2twhql-e1c6bfa4-e58c-4777-82df-009888da3071.jpg/v1/fill/w_1600,h_996,q_75,strp/hogwarts_professors_by_belegilgalad_d2twhql-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTk2IiwicGF0aCI6IlwvZlwvYTQ0ZDY5NWEtMGVkNi00NjY4LTgyYmMtYWY2NDkzNTEyNDgxXC9kMnR3aHFsLWUxYzZiZmE0LWU1OGMtNDc3Ny04MmRmLTAwOTg4OGRhMzA3MS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.foC1P92lDFTqJO6DafqAYeZ5qnlT02zYtPzOT6OcM_Q");
-    border: solid 2px green;
 }
 
 
@@ -614,6 +637,10 @@ html, body {
 
 @media only screen and (max-width: 1400px) {
     /* Home Page Media Queries */
+    .staff-header {
+        min-height: 60vh;
+    }
+
     #first-row-p {
         height: 40vh;
     }
@@ -664,7 +691,6 @@ html, body {
 
     /* Hogwarts houses page media queries */
 
-
     .hr-stars {
         display: none;
     }
@@ -687,7 +713,6 @@ html, body {
 
     .headteacher-section {
         min-width: 80%;
-        border: solid 3px blue;
     }
 
     .head-teacher-container {
@@ -699,20 +724,64 @@ html, body {
         row-gap: 2%;
     }
     
+    .staff-header {
+        min-height: 50vh;
+        /* background-image:url(" https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a44d695a-0ed6-4668-82bc-af6493512481/d2twhql-e1c6bfa4-e58c-4777-82df-009888da3071.jpg/v1/fill/w_1600,h_996,q_75,strp/hogwarts_professors_by_belegilgalad_d2twhql-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTk2IiwicGF0aCI6IlwvZlwvYTQ0ZDY5NWEtMGVkNi00NjY4LTgyYmMtYWY2NDkzNTEyNDgxXC9kMnR3aHFsLWUxYzZiZmE0LWU1OGMtNDc3Ny04MmRmLTAwOTg4OGRhMzA3MS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.foC1P92lDFTqJO6DafqAYeZ5qnlT02zYtPzOT6OcM_Q") linear-gradient(rgba(0, 174, 255, 1),rgba(255, 0, 0, 0.5));
+        background-position: center;
+        background-size: cover; */
+    }
 
+    .sub-page-title {
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .icons {
+        min-width: 8%;
+    }
+
+    .nav {
+        max-width: 60%;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-nav {
+        min-width: 100%;
+        margin: 0 auto;
+    }
 
 }
 
 
 @media only screen and (max-width: 1100px) {
+
     .headteacher-section {
         flex-direction: column;
+    }
+
+    .icons {
+        min-width: 10%;
+    }
+
+    .staff-header {
+        min-height: 40vh;
+    }
+
+    .sub-page-title {
+        text-shadow: 5px 5px 5px #000000;
+        font-size: 6rem;
     }
 
 }
 
 @media only screen and (max-width: 900px) {
+    .icons {
+        min-width: 15%;
+    }
+
     /* Home Page Media Queries */
+
     .welcome-title {
         width: 90%;
         margin: 0 auto;
@@ -726,7 +795,7 @@ html, body {
 
     .headteacher-section {
         min-width: 90%;
-        border: solid 3px green;
+
     }
 
     .head-teacher-container {
@@ -736,5 +805,9 @@ html, body {
         grid-template-columns: repeat(1, 1fr);
     }
     
+    .staff-header {
+
+        background-size: 1000px 700px;
+    }
 
 }
