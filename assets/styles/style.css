@@ -141,6 +141,9 @@ link - https://www.youtube.com/watch?v=mjDek0d1kak */
 }
 
 .home-btn {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
     padding: 1% 3%;
     border: solid 2px #fff;
     background-color: rgba(197, 0, 49, 0.774);
@@ -154,18 +157,8 @@ link - https://www.youtube.com/watch?v=mjDek0d1kak */
     border: solid 2px rgba(197, 0, 49, 0.774);
     background-color: #fff;
     box-shadow: none;
-
-    transform: translateY(5px);
-}
-
-.home-btn a:hover {
     color: #000 !important;
-}
-
-
-.home-btn a {
-    text-decoration: none;
-    color: #fff !important;
+    transform: translateY(5px);
 }
 
 
@@ -541,20 +534,20 @@ footer {
     display: block;
 }
 
-#first-row-p {
+.first-row-p {
     background-color: rgba(197, 0, 49, 0.774);
     min-height: 30vh;
 }
 
-#second-row-p {
+.second-row-p {
     background-color: rgba(160, 0, 40, 0.774);
 }
 
-#third-row-p {
+.third-row-p {
     background-color: rgba(95, 0, 24, 0.774);
 }
 
-#fourth-row-p {
+.fourth-row-p {
     background-color: rgba(61, 1, 16, 0.774);
 }
 
@@ -618,7 +611,7 @@ footer {
 }
 
 
-#first-row-p {
+.first-row-p {
     background-color: rgba(197, 0, 49, 0.774);
     height: 30vh;
 }
@@ -641,7 +634,7 @@ footer {
         min-height: 60vh;
     }
 
-    #first-row-p {
+    .first-row-p {
         height: 40vh;
     }
     
