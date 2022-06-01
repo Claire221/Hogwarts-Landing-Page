@@ -520,17 +520,13 @@ footer {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    height: auto;
 }
 
 
 .head-teacher-container {
-    width: 40%;
-    height: auto;
     text-align: center;
     border: solid 5px  #fff;
     margin: 2% auto 0;
-
     display: block;
 }
 
@@ -757,6 +753,14 @@ footer {
         min-width: 10%;
     }
 
+    .teacher-heading {
+        margin-top: 10%;
+    }
+
+    .teacher-section {
+        margin: 5% 0;
+    }
+
     .staff-header {
         min-height: 40vh;
     }
@@ -794,8 +798,11 @@ footer {
     .head-teacher-container {
         width: 100%;
     }  
-      .teacher-section {
+
+
+    .teacher-section {
         grid-template-columns: repeat(1, 1fr);
+        display: block;
     }
     
     .staff-header {
