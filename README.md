@@ -114,6 +114,9 @@ The first way I tried to fix it was to re put in the navbar template from bootst
 
 Next I thought it might be an erorr with the CDN I had imported and this turned out to be correct, after trying a few recomended ones from Stack overflow and not having any luck I went back to the Bootstrap documentation and realised I had imported the wrong JavaScript file, I swapped out the one I already have with the new one and it fixed the issue.
 
+## Testing
+I have created a seperate document for the tests I conducted, it can be found [Here] (TESTING.md)
+
 ## Deployment
 I have deployed my website on Github Pages following the steps below: 
 - Navigate to the projects github repository
