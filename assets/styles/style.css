@@ -320,6 +320,10 @@ footer {
 
 /* Hogwarts Lesson section Styles */
 
+.lesson-section {
+    margin-bottom: 0;
+}
+
 .lesson-section-image {
     background-image: url("https://i.pinimg.com/originals/5e/6b/3c/5e6b3c7d5d3310d8d2616c5a9c131de2.jpg");
     min-height: 100%;
@@ -440,7 +444,6 @@ footer {
 /* Classes page Styles */
 .classes-header {
     background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/3qDq1So6CseO6ek4MyuE0a/41f1755b77c83e22252a91e31297447c/FiliusFlitwick_PM_B1C10M2_CharmsClass_Moment.jpg");
-    border: solid 2px #021333
 }
 
 /* Herbology Section */
@@ -517,7 +520,7 @@ footer {
 
 .headteacher-section {
     display: flex;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
 }
@@ -526,8 +529,10 @@ footer {
 .head-teacher-container {
     text-align: center;
     border: solid 5px  #fff;
-    margin: 2% auto 0;
+    border-radius: 5px;
+    margin: 2%  1%;
     display: block;
+    width: 50%;
 }
 
 .first-row-p {
@@ -550,9 +555,8 @@ footer {
 
 .teacher-section {
     display: flex;
-    width: 100%;
-    margin: 0 auto 2%;
-
+    width: 95%;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2%;
@@ -702,6 +706,7 @@ footer {
 
     .headteacher-section {
         min-width: 80%;
+        margin: 0 auto;
     }
 
     .head-teacher-container {
@@ -715,9 +720,6 @@ footer {
     
     .staff-header {
         min-height: 50vh;
-        /* background-image:url(" https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a44d695a-0ed6-4668-82bc-af6493512481/d2twhql-e1c6bfa4-e58c-4777-82df-009888da3071.jpg/v1/fill/w_1600,h_996,q_75,strp/hogwarts_professors_by_belegilgalad_d2twhql-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTk2IiwicGF0aCI6IlwvZlwvYTQ0ZDY5NWEtMGVkNi00NjY4LTgyYmMtYWY2NDkzNTEyNDgxXC9kMnR3aHFsLWUxYzZiZmE0LWU1OGMtNDc3Ny04MmRmLTAwOTg4OGRhMzA3MS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.foC1P92lDFTqJO6DafqAYeZ5qnlT02zYtPzOT6OcM_Q") linear-gradient(rgba(0, 174, 255, 1),rgba(255, 0, 0, 0.5));
-        background-position: center;
-        background-size: cover; */
     }
 
     .sub-page-title {
@@ -749,6 +751,12 @@ footer {
         flex-direction: column;
     }
 
+    .head-teacher-container {
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 2%;
+    }
+
     .icons {
         min-width: 10%;
     }
@@ -758,7 +766,11 @@ footer {
     }
 
     .teacher-section {
-        margin: 5% 0;
+        margin: 5% auto;
+    }
+
+    .teacher-container {
+        height: auto;
     }
 
     .staff-header {
@@ -806,8 +818,7 @@ footer {
       /* Hogwarts staff page media queries */
 
     .headteacher-section {
-        min-width: 90%;
-
+        min-width: 70%;
     }
 
     .head-teacher-container {
@@ -820,6 +831,12 @@ footer {
         display: block;
     }
     
+    .teacher-container {
+        margin: 2% auto;
+        width: 70%;
+        min-height: 40vh;
+    }
+
     .staff-header {
 
         background-size: 1000px 700px;
