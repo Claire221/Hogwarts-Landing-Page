@@ -309,7 +309,7 @@ footer {
 
 /* Houses Section Styles */
 .houses-section-image {
-    background-image: url("/assets/img/crest.png");
+    background-image: url("./assets/img/crest.png");
     min-height: 100%;
     background-size: 40vh;
 }
