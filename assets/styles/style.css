@@ -540,13 +540,13 @@ footer {
   }
   
   .staff-card {
-      color: rgb(255, 0, 0) !important;
+      color: #000;
       border: solid 3px rgb(53, 53, 53);
       border-radius: 10px;
       text-align: center;
       margin: 1%;
       width: 33%;
-      background-color: rgb(255, 255, 255);
+      background-color: rgb(214, 214, 214);
   
       height: 100%;
       padding: 0;
@@ -581,10 +581,10 @@ footer {
       width: 95%;
       margin: 5% auto;
       min-height: 150px;
+  
       color: rgb(0, 0, 0) !important;
       font-weight: bold;
   }
-  
 
 /* Animation styles */
 @keyframes header-zoom {
@@ -750,7 +750,6 @@ footer {
 
     .teacher-description {
         margin: 2% auto !important; 
-        border: solid 3px palevioletred;
         font-size: 1.5rem;
     }
 
