@@ -400,7 +400,7 @@ footer {
 .gryffindor-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("/assets/img/gryffindor_common_room.jpg");
+    background-image: url("assets/img/gryffindor_common_room.jpg");
 }
 
 
@@ -409,7 +409,7 @@ footer {
 .hufflepuff-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("/assets/img/hufflepuff_common_room.jpg");
+    background-image: url("assets/img/hufflepuff_common_room.jpg");
 }
 
 .hufflepuff-section-p {
@@ -421,7 +421,7 @@ footer {
 .ravenclaw-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("/assets/img/ravenclaw_common_room.jpg");
+    background-image: url("assets/img/ravenclaw_common_room.jpg");
 }
 
 .ravenclaw-section-p {
@@ -433,7 +433,7 @@ footer {
 .slytherin-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("/assets/img/slytherin_common_room.jpg");
+    background-image: url("assets/img/slytherin_common_room.jpg");
 }
 
 .slytherin-section-p {
