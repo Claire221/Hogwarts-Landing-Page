@@ -443,14 +443,14 @@ footer {
 
 /* Classes page Styles */
 .classes-header {
-    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/3qDq1So6CseO6ek4MyuE0a/41f1755b77c83e22252a91e31297447c/FiliusFlitwick_PM_B1C10M2_CharmsClass_Moment.jpg");
+    background-image: url("/assets/img/class.jpg");
 }
 
 /* Herbology Section */
 .herbology-section-image {
     width: 100%;
     height: 100%;
-    background-image: url("https://static.wixstatic.com/media/d78287_69002cd02243496ea1eff0a01fe0fb90~mv2.jpg/v1/fill/w_980,h_384,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d78287_69002cd02243496ea1eff0a01fe0fb90~mv2.jpg");
+    background-image: url("/assets/img/herbology.jpg");
 }
 
 .herbology-section-p {
@@ -459,24 +459,13 @@ footer {
 
 /* Defence against the dark arts Section */
 .defence-section-image {
-    background-image: url("https://external-preview.redd.it/hD0NNIY0LYCiUSf16_x68TUcK7GxC94VPEO1Iu_VpBo.jpg?auto=webp&s=040442be779b53952f156da6663635cedbe57f6e");
+    background-image: url("/assets/img/patronus.JPG");
     min-height: 100%;
     margin: 0;
 }
 
 .defence-section-p {
     background-color: #00393d;
-}
-
-/*Astronomy class section */
-.astronomy-section-image {
-    width: 100%;
-    height: auto;
-    background-image: url("https://i.ytimg.com/vi/4QGwmoIJKB8/maxresdefault.jpg");
-}
-
-.astronomy-section-p {
-    background-color: #04011a;
 }
 
 /* Potions class section */
@@ -493,7 +482,7 @@ footer {
 
 /* Transfiguration Section */
 .transfiguration-section-image {
-    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a9e3440d-0f91-47a7-82c9-7c72df86c43d/ddl65cz-40a86cf8-b2dc-4d68-90b7-8d093e8cc150.jpg/v1/fit/w_414,h_239,q_70,strp/professor_minerva_mcgonagall_fanart_by_vladislavpantic_ddl65cz-414w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTkwIiwicGF0aCI6IlwvZlwvYTllMzQ0MGQtMGY5MS00N2E3LTgyYzktN2M3MmRmODZjNDNkXC9kZGw2NWN6LTQwYTg2Y2Y4LWIyZGMtNGQ2OC05MGI3LThkMDkzZThjYzE1MC5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.KTqbzjl51Dqnk31B-QhKG9v13NASTa8VOZ7WJO6k2d4");
+    background-image: url("/assets/img/transfiguration.jpg");
 }
 
 .transfiguration-section-p {
@@ -502,7 +491,7 @@ footer {
 
 /* Care of magical creatures Section */
 .creatures-section-image {
-    background-image: url("https://cat-us.com/wp-content/uploads/2020/08/Care-Of-Magical-Creatures-Class-768x591.jpg");
+    background-image: url("/assets/img/magical_creatures.JPG");
 }
 
 .creatures-section-p {
