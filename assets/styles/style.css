@@ -74,7 +74,7 @@ link - https://www.youtube.com/watch?v=mjDek0d1kak */
 
 .content-container {
     border: 2px solid #fff;
-    margin: 1;
+    margin: 1%;
 }
 
 .houses-section-p, .lesson-section-p {
@@ -246,7 +246,7 @@ footer {
     min-height: 90vh;
     min-width: 100vw;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
-                      url("https://static0.srcdn.com/wordpress/wp-content/uploads/2019/02/Hogwarts-Featured.jpg");
+                      url("/assets/img/hogwarts_castle.JPG");
     animation: zoom 1s ;
     margin-bottom: 5%;
     animation-name: header-zoom;
@@ -299,7 +299,7 @@ footer {
 .hogsmede-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("https://cdnb.artstation.com/p/assets/images/images/013/732/955/large/elizaveta-lebedeva-hogsmeade.jpg?1540902403");
+    background-image: url("/assets/img/hogsmede.jpg");
 }
 
 .hogsmede-section-p {
@@ -309,7 +309,7 @@ footer {
 
 /* Houses Section Styles */
 .houses-section-image {
-    background-image: url("https://i.pinimg.com/originals/3e/04/8b/3e048b87288ebd70c0342008e93529af.jpg");
+    background-image: url("/assets/img/hogwarts_crest.jpg");
     min-height: 100%;
     background-size: 40vh;
 }
@@ -325,7 +325,7 @@ footer {
 }
 
 .lesson-section-image {
-    background-image: url("https://i.pinimg.com/originals/5e/6b/3c/5e6b3c7d5d3310d8d2616c5a9c131de2.jpg");
+    background-image: url("/assets/img/potions_class.jpg");
     min-height: 100%;
 }
 
@@ -363,7 +363,7 @@ footer {
 }
 
 .houses-header {
-    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/3oHASBLOr6uWCQwUA8MWoO/f48ffdb9bd5dfd8051fa256f72c338a5/SortingHat-PM-B2C12M1-DumbledoreOffice-Moment.jpg?fm=jpg&q=70&w=2560");
+    background-image: url("/assets/img/sorting_hat.jpg");
 }
 
 
@@ -400,7 +400,7 @@ footer {
 .gryffindor-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("https://i.pinimg.com/originals/92/84/e8/9284e85bb098c50b8b1256d4d3b6e9e6.jpg");
+    background-image: url("/assets/img/gryffindor_common_room.jpg");
 }
 
 
@@ -409,7 +409,7 @@ footer {
 .hufflepuff-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("https://cdnb.artstation.com/p/assets/images/images/014/717/891/large/jack-gallagher-hufflepuff-dorm-jpg2.jpg?1545154183");
+    background-image: url("/assets/img/hufflepuff_common_room.jpg");
 }
 
 .hufflepuff-section-p {
@@ -421,7 +421,7 @@ footer {
 .ravenclaw-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("https://cdna.artstation.com/p/assets/images/images/006/609/700/4k/jack-gallagher-ravenclaw-common-room-jpg8.jpg?1499894549");
+    background-image: url("/assets/img/ravenclaw_common_room.jpg");
 }
 
 .ravenclaw-section-p {
@@ -433,7 +433,7 @@ footer {
 .slytherin-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("https://cdna.artstation.com/p/assets/images/images/006/864/668/4k/jack-gallagher-slytherin-common-room-jpg7.jpg?1501808962&dl=1");
+    background-image: url("/assets/img/slytherin_common_room.jpg");
 }
 
 .slytherin-section-p {
