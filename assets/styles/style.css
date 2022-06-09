@@ -628,16 +628,106 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1400px) {
-    /* Home Page Media Queries */
-    .staff-header {
-        min-height: 60vh;
+@media only screen and (max-width: 900px) {
+    nav {
+        flex-direction: column;
     }
 
-    .first-row-p {
-        height: 40vh;
+   .navbar-collapse {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav {
+        display: block;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .icons {
+        min-width: 15%;
+    }
+
+    /* Home Page Media Queries */
+
+    .welcome-title {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 4rem;
+    }
+    .welcome-header {
+        margin-bottom: 20%;
+    }
+
+      /* Hogwarts staff page media queries */
+
+    .headteacher-section {
+        min-width: 70%;
+    }
+
+    .head-teacher-container {
+        width: 100%;
+    }  
+
+
+    .teacher-section {
+        grid-template-columns: repeat(1, 1fr);
+        display: block;
     }
     
+    .teacher-container {
+        margin: 2% auto;
+        width: 70%;
+        min-height: 40vh;
+    }
+
+    .staff-header {
+
+        background-size: 1000px 700px;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .headteacher-section {
+        flex-direction: column;
+    }
+
+    .head-teacher-container {
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 2%;
+    }
+
+    .icons {
+        min-width: 10%;
+    }
+
+    .teacher-heading {
+        margin-top: 10%;
+    }
+
+    .teacher-section {
+        margin: 5% auto;
+    }
+
+    /* .teacher-container {
+        min-height: 100%;
+    } */
+
+    .teacher-description {
+        height: 40vh;
+    }
+
+    .staff-header {
+        min-height: 40vh;
+    }
+
+    .sub-page-title {
+        text-shadow: 5px 5px 5px #000;
+        font-size: 6rem;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -703,7 +793,6 @@ footer {
     }
 
     /* Hogwarts Staff page media queries */
-
     .headteacher-section {
         min-width: 80%;
         margin: 0 auto;
@@ -717,7 +806,8 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 2%;
     }
-    
+
+
     .staff-header {
         min-height: 50vh;
     }
@@ -726,6 +816,19 @@ footer {
         font-weight: 600;
     }
 }
+
+@media only screen and (max-width: 1400px) {
+    /* Home Page Media Queries */
+    .staff-header {
+        min-height: 60vh;
+    }
+
+    .first-row-p {
+        height: 40vh;
+    }
+    
+}
+
 
 @media screen and (max-width: 1500px){
     .icons {
@@ -740,110 +843,6 @@ footer {
     .navbar-nav {
         min-width: 100%;
         margin: 0 auto;
-    }
-
-}
-
-
-@media only screen and (max-width: 1100px) {
-
-    .headteacher-section {
-        flex-direction: column;
-    }
-
-    .head-teacher-container {
-        margin: 0 auto;
-        width: 80%;
-        margin-top: 2%;
-    }
-
-    .icons {
-        min-width: 10%;
-    }
-
-    .teacher-heading {
-        margin-top: 10%;
-    }
-
-    .teacher-section {
-        margin: 5% auto;
-    }
-
-    /* .teacher-container {
-        min-height: 100%;
-    } */
-
-    .teacher-description {
-        height: 40vh;
-    }
-
-    .staff-header {
-        min-height: 40vh;
-    }
-
-    .sub-page-title {
-        text-shadow: 5px 5px 5px #000;
-        font-size: 6rem;
-    }
-
-}
-
-@media only screen and (max-width: 900px) {
-    nav {
-        flex-direction: column;
-    }
-
-   .navbar-collapse {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .nav {
-        display: block;
-        flex-direction: row;
-        width: 100%;
-    }
-
-    .icons {
-        min-width: 15%;
-    }
-
-    /* Home Page Media Queries */
-
-    .welcome-title {
-        width: 90%;
-        margin: 0 auto;
-        font-size: 4rem;
-    }
-    .welcome-header {
-        margin-bottom: 20%;
-    }
-
-      /* Hogwarts staff page media queries */
-
-    .headteacher-section {
-        min-width: 70%;
-    }
-
-    .head-teacher-container {
-        width: 100%;
-    }  
-
-
-    .teacher-section {
-        grid-template-columns: repeat(1, 1fr);
-        display: block;
-    }
-    
-    .teacher-container {
-        margin: 2% auto;
-        width: 70%;
-        min-height: 40vh;
-    }
-
-    .staff-header {
-
-        background-size: 1000px 700px;
     }
 
 }
