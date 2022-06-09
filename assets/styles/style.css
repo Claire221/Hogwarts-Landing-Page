@@ -443,7 +443,7 @@ footer {
 
 /* Classes page Styles */
 .classes-header {
-    background-image: url("/assets/img/class.jpg");
+    background-image: url("/assets/img/sorting_hat.jpg");
 }
 
 /* Herbology Section */
@@ -470,7 +470,7 @@ footer {
 
 /* Potions class section */
 .potions-section-image {
-    background-image: url("https://i.pinimg.com/originals/5e/6b/3c/5e6b3c7d5d3310d8d2616c5a9c131de2.jpg");
+    background-image: url("/assets/img/potions_class.jpg");
     width: 100%;
     min-height: 100%;
 
