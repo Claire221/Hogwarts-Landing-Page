@@ -38,13 +38,13 @@ I started the design process my sketching down my idea in its simplist form so I
 - ![Homepage page wireframes](assets/documentation/wireframes/homepage.png =250x250)
 
 ### Hogwarts Houses Page Wireframes
-- ![Hogwarts Houses page wireframes](assets/documentation/wireframes/housespage.png)
+- ![Hogwarts Houses page wireframes](documentation/wireframes/housespage.png)
 
 ### Hogwarts Lessons Page Wireframes
-- ![Hogwarts Lessons page wireframes](assets/documentation/wireframes/lessonpage.png)
+- ![Hogwarts Lessons page wireframes](documentation/wireframes/lessonpage.png)
 
 ### Hogwarts Staff Page Wireframes
-- ![Hogwarts Staff page wireframes](assets/documentation/wireframes/teacherspage.png)
+- ![Hogwarts Staff page wireframes](documentation/wireframes/teacherspage.png)
 
 
 
@@ -67,14 +67,14 @@ Throughout the website I wanted to keep certain elements the same so that the si
 #### Navigation
 For the navigation I used a dark coloured navbar so that it fit in with the rest of the pages background colour. On the far left I have the Hogwarts logo and then on the far right I have the links to the other pages of the website. All of the elements in the navbar have a hover effect so that the user knows what area they are currently hovering over, and each page has an active state so that you can tell by looking at the navbar what page you are currently on. 
 
-![Navbar](/assets/img/README_img/navbar.png)
+![Navbar](/documentation/testing/navbar.png)
 
 
 ## Individual Page Designs
 ### Home page
 #### Header Section
 For the header of the home page I wanted something that would catch someones attention as its the first thing they will see, I decided to do a hero image of Hogwarts Castle and I added a slight zoom effect to it. I also added two headings which welcome you to the page. 
-![Home Page header section](/assets/documentation/testing/README_img/homepage.png)
+![Home Page header section](documentation/testing/homepage.png)
 
 
 
@@ -82,16 +82,16 @@ For the header of the home page I wanted something that would catch someones att
 For the information on the home page I decided to go with a card format. Each card had a paragrpah that gave a small description of the topic and then a picture which corelated with the information in the paragraph. I decided to give each paragraph background a colour so that it stood out against the black page background and was easier to read. 
 For the images I decided to go with an art style rather than a realistic photograph, I chose this design because I found that they were a lot more colourful so stood out on the page more, I also thought it gave the page a nice feel. 
 
-![Home Page Card section](assets/documentation/testing/README_img/homepage-cards.png)
-![Home Page Card section](assets/documentation/testing/README_img/homepage-cards2.png)
-![Home Page Card section](assets/documentation/testing/README_img/homepage-cards3.png)
+![Home Page Card section](documentation/testing/homepage-cards.png)
+![Home Page Card section](documentation/testing/homepage-cards2.png)
+![Home Page Card section](documentation/testing/homepage-cards3.png)
 
 
 
 #### HR
 Between each card I decided to add a Hr to break up the sections a bit. When I first created the cards I thought they were a bit bunched together so I started by adding a margin between them, I then felt that this made the page look a bit empty as there were big empty gaps between each section so I decided to go in with a HR. I didnt want the HR to be plain and boring because I didnt think that would fit in with the magical theme of the website so I decided to do something a bit different by creating a diamond shape in the middle.
 
-![Home Page HR](assets/documentation/testing/README_img/homepage-hr.PNG)
+![Home Page HR](/documentation/testing/hr.JPG)
 
 
 
@@ -144,16 +144,6 @@ For the header section I wanted a staff group photo, I wanted to give the feel t
 For the cards on the page I wanted to have their title, name and a breif description included. Also for the image I used real photos rather than artistic ones as I thought it made more sence to have genuine photos 
 
 
-
-## Bugs
-When I was testing my website I noticed that there was a problem with the bootstrap nav bar, when you went to smaller viewports it was collapsing but the hamburger menu wasnt working and when you clicked on it nothing happened. 
-
-The first way I tried to fix it was to re put in the navbar template from bootstrap incase a change I had made had caused an issue, so I copied and pasted the code from bootstap and didnt change any of the classes or template text. I tried the different viewports again and the navbar hamburger menu still wanst working, this told me though that it wasnt an error with the HTML code.
-
-Next I thought it might be an erorr with the CDN I had imported and this turned out to be correct, after trying a few recomended ones from Stack overflow and not having any luck I went back to the Bootstrap documentation and realised I had imported the wrong JavaScript file, I swapped out the one I already have with the new one and it fixed the issue.
-
-
-
 ## Testing
 I have created a seperate document for the tests I conducted, it can be found [Here] (TESTING.md)
 
@@ -199,7 +189,7 @@ Throughout the website I used a variery of images and artworks.
 - [Classes page header image](https://www.wizardingworld.com/writing-by-jk-rowling/hogwarts-school-subjects)
 - [Herbology Lesson Art](https://www.wizardingworld.com/features/health-hazards-herbology)
 - [Defence Against the Dark Arts lesson art](https://www.wizardingworld.com/features/what-is-a-patronus)
-- [Divination lesson art](https://www.youtube.com/watch?v=4QGwmoIJKB8)
+- [Divination lesson art](http://guide-to-pottermore-items.blogspot.com/2013/02/poa-chp-6-divination.html)
 - [Potions lesson art](https://www.deviantart.com/xxtayce/art/Pottermore-Background-Potions-Class-417719888)
 - [Transfiguration lesson art](https://www.artstation.com/artwork/Bm0e8k)
 - [Care of Magical Creatures lesson art](https://harrypotter.fandom.com/wiki/Care_of_Magical_Creatures)
