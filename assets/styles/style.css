@@ -245,7 +245,7 @@ footer {
     min-height: 90vh;
     min-width: 100vw;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
-                      url("../img/hogwarts_castle.JPG");
+                      url("../img/hogwarts_castle.jpg");
     animation: zoom 1s ;
     margin-bottom: 5%;
     animation-name: header-zoom;
@@ -280,7 +280,7 @@ footer {
 .about-section {
     margin-bottom: 0%;
     flex-direction: column;
-    border: solid 3px blue;
+    border: solid 3px yellow;
 }
 
 .about-section-p {
@@ -310,7 +310,7 @@ footer {
 
 /* Houses Section Styles */
 .houses-section-image {
-    background-image: url("img/hogwarts_crest.jpg");
+    background-image: url("../img/hogwarts_crest.jpg");
     min-height: 100%;
     background-size: 40vh;
 }
@@ -326,7 +326,7 @@ footer {
 }
 
 .lesson-section-image {
-    background-image: url("./assets/img/potions_class.jpg");
+    background-image: url("../img/potions_class.jpg");
     min-height: 90%;
     margin: 4% auto 0;
 }
@@ -365,7 +365,7 @@ footer {
 }
 
 .houses-header {
-    background-image: url("assets/img/sorting_hat.jpg");
+    background-image: url("../img/sorting_hat.jpg");
 }
 
 
@@ -402,7 +402,7 @@ footer {
 .gryffindor-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("assets/img/gryffindor_common_room.jpg");
+    background-image: url("../img/gryffindor_common_room.jpg");
 }
 
 
@@ -411,7 +411,7 @@ footer {
 .hufflepuff-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("assets/img/hufflepuff_common_room.jpg");
+    background-image: url("../img/hufflepuff_common_room.jpg");
 }
 
 .hufflepuff-section-p {
@@ -423,7 +423,7 @@ footer {
 .ravenclaw-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("assets/img/ravenclaw_common_room.jpg");
+    background-image: url("../img/ravenclaw_common_room.jpg");
 }
 
 .ravenclaw-section-p {
@@ -435,7 +435,7 @@ footer {
 .slytherin-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("assets/img/slytherin_common_room.jpg");
+    background-image: url("../img/slytherin_common_room.jpg");
 }
 
 .slytherin-section-p {
@@ -445,14 +445,14 @@ footer {
 
 /* Classes page Styles */
 .classes-header {
-    background-image: url("assets/img/sorting_hat.jpg");
+    background-image: url("../img/sorting_hat.jpg");
 }
 
 /* Herbology Section */
 .herbology-section-image {
     width: 100%;
     height: 100%;
-    background-image: url("assets/img/herbology.jpg");
+    background-image: url("../img/herbology.jpg");
 }
 
 .herbology-section-p {
@@ -461,7 +461,7 @@ footer {
 
 /* Defence against the dark arts Section */
 .defence-section-image {
-    background-image: url("assets/img/patronus.JPG");
+    background-image: url("../img/patronus.jpg");
     min-height: 100%;
     margin: 0;
 }
@@ -472,7 +472,7 @@ footer {
 
 /* Potions class section */
 .potions-section-image {
-    background-image: url("assets/img/potions_class.jpg");
+    background-image: url("../img/potions_class.jpg");
     width: 100%;
     min-height: 100%;
 
@@ -484,7 +484,7 @@ footer {
 
 /* Transfiguration Section */
 .transfiguration-section-image {
-    background-image: url("assets/img/transfiguration.jpg");
+    background-image: url("../img/transfiguration.jpg");
 }
 
 .transfiguration-section-p {
@@ -493,7 +493,7 @@ footer {
 
 /* Care of magical creatures Section */
 .creatures-section-image {
-    background-image: url("assets/img/magical_creatures.JPG");
+    background-image: url("../img/magical_creatures.jpg");
 }
 
 .creatures-section-p {
@@ -503,7 +503,7 @@ footer {
 /* Hogwarts Staff Page Styles */
 /* Header Styles */
 .staff-header {
-    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a44d695a-0ed6-4668-82bc-af6493512481/d2twhql-e1c6bfa4-e58c-4777-82df-009888da3071.jpg/v1/fill/w_1600,h_996,q_75,strp/hogwarts_professors_by_belegilgalad_d2twhql-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTk2IiwicGF0aCI6IlwvZlwvYTQ0ZDY5NWEtMGVkNi00NjY4LTgyYmMtYWY2NDkzNTEyNDgxXC9kMnR3aHFsLWUxYzZiZmE0LWU1OGMtNDc3Ny04MmRmLTAwOTg4OGRhMzA3MS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.foC1P92lDFTqJO6DafqAYeZ5qnlT02zYtPzOT6OcM_Q");
+    background-image: url("../img/staff.jpg");
 }
 
 .head-teacher-section {
