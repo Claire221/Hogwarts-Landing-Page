@@ -92,6 +92,7 @@ For the header of the home page I wanted something that would catch someones att
 ![Home page header](documentation/testing/homepage_header.jpg)
 
 Under the header I have an about section that contains a breif paragraph explaining the school and what students might expect when studying there. 
+![Home page header](documentation/testing/home_about.jpg)
 
 For the information on the home page I decided to go with a card format. Each card had a paragraph that gave a small description of the topic and then a picture which corelated with the information in the paragraph. I decided to give each paragraph background a colour so that it stood out against the black page background and was easier to read. 
 For the images I decided to go with an art style rather than a realistic photograph, I chose this design because I found that they were a lot more colourful so stood out on the page more, I also thought it gave the page a nice feel. 
@@ -130,19 +131,22 @@ Between each card section I decided to add a break to add some space so that the
 Again with the classes page I kept it very similar to the previous two pages as it was important to me that the pages as a whole felt like they are part of the same piece.
 For the header section I managed to find an art work the represented a class setting so I decided to go with that. Because the image is brighter than the background I think it makes the heading section stand out.   
 
-![Class page header]()
+![Class page header](documentation/testing/class_header.jpg)
 
 For the card section I kept the layout the same as the pervious pages. This time for the images I found artwork that depicted each classroom to give a feel for what the classes might be like. I also coloured the paragraph section with a colour from the image, I chose a colour that wasn’t as prominent so that it was a bit of a contrast. 
 
-![Class page Card section](documentation/testing/homepage-cards.png)
-![Class page Card section](documentation/testing/homepage-cards2.png)
-![Class page Card section](documentation/testing/homepage-cards3.png)
+![Class page Card section](documentation/testing/class_card_1.jpg)
+![Class page Card section](documentation/testing/class_card_2.jpg)
+![Class page Card section](documentation/testing/class_card_3.jpg)
+![Class page Card section](documentation/testing/class_card_4.jpg)
+![Class page Card section](documentation/testing/class_card_5.jpg)
+![Class page Card section](documentation/testing/class_card_6.jpg)
 
 #### Staff and Teachers page
 
 For the staff and teachers page I mixed up the layout slightly, I still went with a cards design, but I went with more of a gallery or portfolio layout. For the header section I wanted a staff group photo, I wanted to give the feel that the staff had all got together to have a photo drawn or painted for it to be used on the school website. 
 
-![Hogwarts Houses page header]()
+![Hogwarts Houses page header](documentation/testing/staff_header.jpg)
 
 For the cards on the page I wanted to have their title, name and a brief description included. Also for the image I used real photos rather than artistic ones as I thought it made more sense to have genuine photos.
 
