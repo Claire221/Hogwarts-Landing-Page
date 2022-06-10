@@ -245,7 +245,7 @@ footer {
     min-height: 90vh;
     min-width: 100vw;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
-                      url("assets/img/class.jpg");
+                      url("../img/hogwarts_castle.JPG");
     animation: zoom 1s ;
     margin-bottom: 5%;
     animation-name: header-zoom;
@@ -280,7 +280,7 @@ footer {
 .about-section {
     margin-bottom: 0%;
     flex-direction: column;
-    border: solid 3px purple;
+    border: solid 3px green;
 }
 
 .about-section-p {
