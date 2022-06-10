@@ -107,6 +107,7 @@ link - https://www.youtube.com/watch?v=mjDek0d1kak */
     font-size: 2rem;
     padding: 1%;
     flex-grow: 3;
+    text-align: center;
 } 
 
 .section-button {
@@ -280,7 +281,6 @@ footer {
 .about-section {
     margin-bottom: 0%;
     flex-direction: column;
-    border: solid 3px yellow;
 }
 
 .about-section-p {
@@ -445,7 +445,7 @@ footer {
 
 /* Classes page Styles */
 .classes-header {
-    background-image: url("../img/sorting_hat.jpg");
+    background-image: url("../img/class.jpg");
 }
 
 /* Herbology Section */
@@ -468,6 +468,18 @@ footer {
 
 .defence-section-p {
     background-color: #00393d;
+}
+
+
+/* Astronomy Section Section */
+.astronomy-section-image {
+    background-image: url("../img/divination.png");
+    min-height: 100%;
+    margin: 0;
+}
+
+.astronomy-section-p {
+    background-color: #d42c02;
 }
 
 /* Potions class section */
