@@ -280,7 +280,7 @@ footer {
 .about-section {
     margin-bottom: 0%;
     flex-direction: column;
-    border: solid 3px green;
+    border: solid 3px blue;
 }
 
 .about-section-p {
@@ -300,7 +300,7 @@ footer {
     height: 90%;
     width: 100%;
     margin: 3% auto 0;
-    background-image: url("assets/img/hogsmede.jpg");
+    background-image: url("../img/hogsmede.jpg");
 }
 
 .hogsmede-section-p {
@@ -310,7 +310,7 @@ footer {
 
 /* Houses Section Styles */
 .houses-section-image {
-    background-image: url("assets/img/hogwarts_crest.jpg");
+    background-image: url("img/hogwarts_crest.jpg");
     min-height: 100%;
     background-size: 40vh;
 }
@@ -326,7 +326,7 @@ footer {
 }
 
 .lesson-section-image {
-    background-image: url("assets/img/potions_class.jpg");
+    background-image: url("./assets/img/potions_class.jpg");
     min-height: 90%;
     margin: 4% auto 0;
 }
