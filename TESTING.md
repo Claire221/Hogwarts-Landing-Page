@@ -11,17 +11,17 @@ Once I confirmed they were working as expected I then went into the devtools and
 
 | Browser        | Screen Size | Image |
 | :----:         |    :----:   | :----:|
-| Chrome         | Desktop     | ![Class page Card section](documentation/testing/teacher_card.jpg) | 
-| Firefox        | Desktop     | ![Class page Card section](documentation/testing/teacher_card.jpg) |
-| Microsoft Edge | Desktop     | ![Class page Card section](documentation/testing/teacher_card.jpg) |
-|                |             | 
-| Chrome         | Ipad        | ![Class page Card section](documentation/testing/teacher_card.jpg) | 
-| Firefox        | Ipad        | ![Class page Card section](documentation/testing/teacher_card.jpg) |
-| Microsoft Edge | Ipad        | ![Class page Card section](documentation/testing/teacher_card.jpg) |
-|                |             | 
-| Chrome         | Mobile      | ![Class page Card section](documentation/testing/teacher_card.jpg) | 
-| Firefox        | Mobile      | ![Class page Card section](documentation/testing/teacher_card.jpg) |
-| Microsoft Edge | Mobile      | ![Class page Card section](documentation/testing/teacher_card.jpg) |
+| Chrome         | Desktop     | ![Class page Card section](documentation/testing/chrome_desktop.jpg) | 
+| Firefox        | Desktop     | ![Class page Card section](documentation/testing/firefox_desktop.jpg)|
+| Microsoft Edge | Desktop     | ![Class page Card section](documentation/testing/edge_desktop.jpg)   |
+|                |             |                                                                      |
+| Chrome         | Ipad        | ![Class page Card section](documentation/testing/chrome_ipad.jpg)    | 
+| Firefox        | Ipad        | ![Class page Card section](documentation/testing/firefox_ipad.jpg)   |
+| Microsoft Edge | Ipad        | ![Class page Card section](documentation/testing/edge_ipad.jpg)      |
+|                |             |                                                                      | 
+| Chrome         | Mobile      | ![Class page Card section](documentation/testing/chrome_iphone.jpg)  | 
+| Firefox        | Mobile      | ![Class page Card section](documentation/testing/firefox_iphone.jpg) |
+| Microsoft Edge | Mobile      | ![Class page Card section](documentation/testing/edge_iphone.jpg)    |
 
 
 ## Code Validation
