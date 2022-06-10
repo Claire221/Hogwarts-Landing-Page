@@ -245,7 +245,7 @@ footer {
     min-height: 90vh;
     min-width: 100vw;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
-                      url("assets/img/hogwarts_castle.JPG");
+                      url("assets/img/class.jpg");
     animation: zoom 1s ;
     margin-bottom: 5%;
     animation-name: header-zoom;
@@ -280,6 +280,7 @@ footer {
 .about-section {
     margin-bottom: 0%;
     flex-direction: column;
+    border: solid 3px purple;
 }
 
 .about-section-p {
@@ -299,7 +300,7 @@ footer {
     height: 90%;
     width: 100%;
     margin: 3% auto 0;
-    background-image: url("/assets/img/hogsmede.jpg");
+    background-image: url("assets/img/hogsmede.jpg");
 }
 
 .hogsmede-section-p {
@@ -309,7 +310,7 @@ footer {
 
 /* Houses Section Styles */
 .houses-section-image {
-    background-image: url("/assets/img/hogwarts_crest.jpg");
+    background-image: url("assets/img/hogwarts_crest.jpg");
     min-height: 100%;
     background-size: 40vh;
 }
@@ -325,7 +326,7 @@ footer {
 }
 
 .lesson-section-image {
-    background-image: url("/assets/img/potions_class.jpg");
+    background-image: url("assets/img/potions_class.jpg");
     min-height: 90%;
     margin: 4% auto 0;
 }
@@ -364,7 +365,7 @@ footer {
 }
 
 .houses-header {
-    background-image: url("/assets/img/sorting_hat.jpg");
+    background-image: url("assets/img/sorting_hat.jpg");
 }
 
 
@@ -401,7 +402,7 @@ footer {
 .gryffindor-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("/assets/img/gryffindor_common_room.jpg");
+    background-image: url("assets/img/gryffindor_common_room.jpg");
 }
 
 
@@ -410,7 +411,7 @@ footer {
 .hufflepuff-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("/assets/img/hufflepuff_common_room.jpg");
+    background-image: url("assets/img/hufflepuff_common_room.jpg");
 }
 
 .hufflepuff-section-p {
@@ -422,7 +423,7 @@ footer {
 .ravenclaw-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("/assets/img/ravenclaw_common_room.jpg");
+    background-image: url("assets/img/ravenclaw_common_room.jpg");
 }
 
 .ravenclaw-section-p {
@@ -434,7 +435,7 @@ footer {
 .slytherin-section-image {
     min-height: 100%;
     margin: 0;
-    background-image: url("/assets/img/slytherin_common_room.jpg");
+    background-image: url("assets/img/slytherin_common_room.jpg");
 }
 
 .slytherin-section-p {
@@ -444,14 +445,14 @@ footer {
 
 /* Classes page Styles */
 .classes-header {
-    background-image: url("/assets/img/sorting_hat.jpg");
+    background-image: url("assets/img/sorting_hat.jpg");
 }
 
 /* Herbology Section */
 .herbology-section-image {
     width: 100%;
     height: 100%;
-    background-image: url("/assets/img/herbology.jpg");
+    background-image: url("assets/img/herbology.jpg");
 }
 
 .herbology-section-p {
@@ -460,7 +461,7 @@ footer {
 
 /* Defence against the dark arts Section */
 .defence-section-image {
-    background-image: url("/assets/img/patronus.JPG");
+    background-image: url("assets/img/patronus.JPG");
     min-height: 100%;
     margin: 0;
 }
@@ -471,7 +472,7 @@ footer {
 
 /* Potions class section */
 .potions-section-image {
-    background-image: url("/assets/img/potions_class.jpg");
+    background-image: url("assets/img/potions_class.jpg");
     width: 100%;
     min-height: 100%;
 
@@ -483,7 +484,7 @@ footer {
 
 /* Transfiguration Section */
 .transfiguration-section-image {
-    background-image: url("/assets/img/transfiguration.jpg");
+    background-image: url("assets/img/transfiguration.jpg");
 }
 
 .transfiguration-section-p {
@@ -492,7 +493,7 @@ footer {
 
 /* Care of magical creatures Section */
 .creatures-section-image {
-    background-image: url("/assets/img/magical_creatures.JPG");
+    background-image: url("assets/img/magical_creatures.JPG");
 }
 
 .creatures-section-p {
