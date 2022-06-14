@@ -32,7 +32,7 @@ Once I had finished my website I ran each page throigh a HTML validator to ensur
 
 #### Home Page
 
-![Home page HTML validator](documentation/testing/Index.jpg)
+![Home page HTML validator](documentation/testing/index.jpg)
 
 #### Houses Page
 
@@ -75,6 +75,16 @@ All of my pages passed the validation checker.
 ![Staff page colour validator](documentation/testing/colour_validator.png)
 
 
+## User stories testing
+- As a user I want an informative website thats easy to read
+
+- As a user I want a website that teaches me more about the school and what it stands for
+
+- As a user I want a website that is easily navigated and intuitive
+
+- As a user I want to see what the students might learn at the school
+
+
 ## Bugs
 
 When I was testing my website I noticed that there was a problem with the bootstrap nav bar, when you went to smaller viewports it was collapsing but the hamburger menu wasnt working and when you clicked on it nothing happened. 
@@ -83,21 +93,3 @@ The first way I tried to fix it was to re put in the navbar template from bootst
 
 Next I thought it might be an erorr with the CDN I had imported and this turned out to be correct, after trying a few recomended ones from Stack overflow and not having any luck I went back to the Bootstrap documentation and realised I had imported the wrong JavaScript file, I swapped out the one I already have with the new one and it fixed the issue.
 
-## Deployment
-
-The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/Claire221/Code-Institute-Milestone-Project-1), navigate to the Settings tab 
-  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
-  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
-The live link can be found [here](https://claire221.github.io/Code-Institute-Milestone-Project-1)
-
-### Local Deployment
-
-In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
-
-- `git clone https://github.com/Claire221/Code-Institute-Milestone-Project-1.git`
-
-Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Claire221/Code-Institute-Milestone-Project-1)
