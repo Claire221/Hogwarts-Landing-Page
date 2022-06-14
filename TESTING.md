@@ -77,13 +77,13 @@ All of my pages passed the validation checker.
 
 ## User stories testing
 - As a user I want an informative website thats easy to read
-
+![information](documentation/testing/about.jpg)
 - As a user I want a website that teaches me more about the school and what it stands for
-
+![about](documentation/testing/info.jpg)
 - As a user I want a website that is easily navigated and intuitive
-
+![Navigation](documentation/testing/navbar.png)
 - As a user I want to see what the students might learn at the school
-
+![Classes taught](documentation/testing/taught.jpg)
 
 ## Bugs
 
