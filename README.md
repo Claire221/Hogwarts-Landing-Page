@@ -35,15 +35,19 @@ For the Staff members page I wanted to keep it fairly simple as not to draw atte
 ### Typography 
 
 I used two main fonts throught the website, one for the logo and one for all the other text. Because the site doesnt have an official logo I wanted the brand name to stand out and act as if it was the logo. For the Hogwarts brand title I wanted a font that played on the magic theme of the website, I wanted something the looked like it could have been written with a quill but wasnt too flamboyant or hard to read. After trying out a few different fonts I decided to go with Arizonia.
+[Arizonia font](https://fonts.google.com/specimen/Arizonia?query=Arizonia)
 
 ![Logo font](documentation/testing/logo.jpg)
 
 
 For the rest of the text throughout the website I decided to use the same font - Zen Loop as to not over complicate things and keep it all readable. I choose this font because its lightweight while also having some stylized aspect to it with some of the letters having curls and character which I thought fit in well with the theme of the website.
+[Zen Loop](https://fonts.google.com/specimen/Zen+Loop?query=Zen+Loop)
 
 ![Body font](documentation/testing/body_font.jpg)
 
 I also used two font awesome icons in my footer for links to a wand shop and also a book shop. I went with these icons because I wanted it to be representitive of the school giving students website to buy their school supplies from. 
+[Broom icon](https://fontawesome.com/icons/broom?s=solid)
+[Book icon](https://fontawesome.com/icons/book?s=solid)
 
 ![Icons](documentation/testing/icons.jpg)
 
@@ -157,13 +161,14 @@ For the cards on the page I wanted to have their title, name and a brief descrip
 Throughout the project I used a variety of technologies.
 
 - I used HTML and CSS to create and style the website.
-- I used Bootstrap to create a responsive navbar.
-- I used github to create a repository for my project.
-- I used gitpod as the development environment.
-- I used github pages to host the website.
+- I used Bootstrap to create a responsive navbar. [Bootstrap Website](https://getbootstrap.com/)
+- I used github to create a repository for my project.[github Website](https://github.com/)
+- I used gitpod as the development environment.[gitpod Website](https://www.gitpod.io/)
+- I used github pages to host the website.[github pages Website](https://pages.github.com/)
+- I used Balsamiq to design my wireframes.[Balsamiq Website](https://balsamiq.com/)
 
 ## Testing
-I have created a seperate document for the tests I conducted, it can be found [Here] (TESTING.md)
+I have created a seperate document for the tests I conducted, it can be found [Here](TESTING.md)
 
 
 ## Deployment
@@ -238,4 +243,4 @@ Throughout the website I used a variery of images and artworks.
 - [Madame Pomfrey image](https://www.pinterest.co.uk/pin/4503668365085602/)
 
 ### Media
-- Home Page HR - (https://www.youtube.com/watch?v=mjDek0d1kak)
+- Home Page HR - [Youtube link](https://www.youtube.com/watch?v=mjDek0d1kak)
