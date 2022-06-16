@@ -32,6 +32,22 @@ For the Lessons page I tried to pick out a colour that was in the background of 
 
 For the Staff members page I wanted to keep it fairly simple as not to draw attention away from the portraits or make the page to chaotic so I went with a simple white border around each profile card and a white background to the staff member description paragraph.
 
+#### Main colours throughout the site
+
+![Main colours](documentation/testing/base_colours.jpg)
+
+#### Hogwarts houses page colours
+
+![Hogwarts houses colours](documentation/testing/houses_colours.jpg)
+
+#### Hogwarts classes page colours
+
+![Hogwarts classes colours](documentation/testing/classes_colours.jpg)
+
+#### Hogwarts staff page colours
+
+![Hogwarts staff colours](documentation/testing/staff_colours.jpg)
+
 ### Typography 
 
 I used two main fonts throught the website, one for the logo and one for all the other text. Because the site doesnt have an official logo I wanted the brand name to stand out and act as if it was the logo. For the Hogwarts brand title I wanted a font that played on the magic theme of the website, I wanted something the looked like it could have been written with a quill but wasnt too flamboyant or hard to read. After trying out a few different fonts I decided to go with Arizonia.
