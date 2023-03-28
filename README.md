@@ -5,7 +5,7 @@
 
 This website is the landing page for the fictional school Hogwarts from the Harry Potter franchize. The aim for the site is to advertise the school to potential parents and students, giving them a view of what they could expect from their time at Hogwarts. There is information on the different classes availible, the four Hogwarts Houses and the staff and teachers who work within the school. 
 
-The official address: [Hogwarts School Website](https://claire221.github.io/Code-Institute-Milestone-Project-1/)
+The official address: [Hogwarts School Website](https://claire221.github.io/Hogwarts-Landing-Page/)
 
 
 ![Website responsiveness](documentation/testing/responsive.jpg)
